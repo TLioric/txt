@@ -64,3 +64,4 @@ proxies:
 - {name: 🇷🇺 俄罗斯_R_543, server: sh163.safetelescope.cc, port: 62305, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 113662:CkQwOd1FPX, obfs-param: ajax.microsoft.com, udp: true}   
 - {name: 🇷🇺 俄罗斯_R_324, server: hn-01.cctelescope.xyz, port: 26096, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 113662:CkQwOd1FPX, obfs-param: ajax.microsoft.com, udp: true}   
 - {name: 🇮🇱 以色列_R_456, server: ieplszhk-sz.cctelescope.xyz, port: 50326, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 113662:CkQwOd1FPX, obfs-param: ajax.microsoft.com, udp: true}
+shadowsocks=13.229.239.8:443, method=aes-256-cfb, password=amazonskr05, fast-open=false, udp-relay=false, tag=日本特殊|tg:@ripaojiedian
