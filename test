@@ -7,3 +7,6 @@ proxies:
 - {name: HW 3, server: 43.156.111.144, port: 31587, type: vmess, uuid: ffd17b65-3ea1-42e6-a75a-9c90caebb530, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /sg5/getData, headers: {Host: sg5.linkeden.co}}, udp: true}
 - {name: HW 4, server: 43.156.19.14, port: 30203, type: vmess, uuid: 98821111-93ab-4562-946a-61ba95f472f1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /sg8/getData, headers: {Host: sg8.verichains.co}}, udp: true}
 - {name: us_bilicapr, server: us2-vmiss.bilicapr.cn, port: 443, type: vmess, uuid: 54214de1-472c-4a0c-8c8f-f64414f12cc9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: us2-vmiss.bilicapr.cn}}, udp: true}
+- {name: 52.32.40.113:443, server: 52.32.40.113, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 13.250.25.173:443, server: 13.250.25.173, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+- {name: 3.39.235.105:443, server: 3.39.235.105, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
