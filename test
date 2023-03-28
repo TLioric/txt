@@ -1,2 +1,3 @@
 proxies:
-  - {name: uitsrt’s ct CTG, server: freectg.uitsrt.me, port: 2086, type: vmess, uuid: a441c0d9-ba02-4a03-9d65-8023a6251968, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /uitsrt, headers: {Host: freectg.uitsrt.me}}, udp: true}
+- {name: uitsrt’s ct CTG, server: freectg.uitsrt.me, port: 2086, type: vmess, uuid: a441c0d9-ba02-4a03-9d65-8023a6251968, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /uitsrt, headers: {Host: freectg.uitsrt.me}}, udp: true}
+- {name: 🇯🇵 JP Xtom cf tl, server: xtomjpfree.uitsrt233.eu.org, port: 443, type: vmess, uuid: e3477423-411b-4127-9497-3f9c3c909f66, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /uitsrt, headers: {Host: xtomjpfree.uitsrt233.eu.org}}, udp: true}
