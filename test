@@ -1,0 +1,2 @@
+proxies:
+  - {name: uitsrt’s ct CTG, server: freectg.uitsrt.me, port: 2086, type: vmess, uuid: a441c0d9-ba02-4a03-9d65-8023a6251968, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /uitsrt, headers: {Host: freectg.uitsrt.me}}, udp: true}
