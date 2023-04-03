@@ -28,3 +28,24 @@ proxies:
 - {name: "🇺🇲 [Hax] US-OpenVZ", server: cdn.wuki.moe, port: 80, type: vmess, uuid: 91ca1792-505f-4ae9-827b-083a64a161ed, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/sbga?ed=2048", headers: {Host: hax-usovz.misakano.ml}}}
 - {name: 🇭🇰 香港高速接入点-06 2, server: hk6.af49c4e4c2ef.sanfen001.pics, port: 443, type: vmess, uuid: ae63c769-7b4f-4916-b575-9214639fcb8b, alterId: 0, cipher: auto, tls: true, servername: hk1.sanfen001.pics, network: ws, ws-opts: {path: /zh-cn, headers: {Host: www.microsoft.com}}}
 - {name: 🇭🇰 5x-临时-香港-高级节点1, server: d0cd89648587.sanfen001.pics, port: 16609, type: vmess, uuid: ae63c769-7b4f-4916-b575-9214639fcb8b, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇸🇬 EPIC_新加坡1, server: sg.epicbrowser.net, port: 8888, type: http, tls: true, skip-cert-verify: false, udp: true}
+  - {name: 🇸🇬 EPIC_新加坡2, server: sg2.epicbrowser.net, port: 8888, type: http, tls: true, skip-cert-verify: false, udp: true}
+  - {name: 🇸🇬 EPIC_新加坡3, server: sg3.epicbrowser.net, port: 8888, type: http, tls: true, skip-cert-verify: false, udp: true}
+  - {name: 🇩🇪 EPIC_德国, server: de2.epicbrowser.net, port: 8888, type: http, tls: true, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 EPIC_美国, server: us1.epicbrowser.net, port: 8888, type: http, tls: true, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 EPIC_美国2, server: sf3.epicbrowser.net, port: 8888, type: http, tls: true, skip-cert-verify: false, udp: true}
+  - {name: 🇬🇧 EPIC_英国1, server: uk.epicbrowser.net, port: 8888, type: http, tls: true, skip-cert-verify: false, udp: true}
+  - {name: 🇬🇧 EPIC_英国2, server: uk2.epicbrowser.net, port: 8888, type: http, tls: true, skip-cert-verify: false, udp: true}
+  - {name: 🇬🇧 EPIC_英国3, server: vd2.epicbrowser.net, port: 8888, type: http, tls: true, skip-cert-verify: false, udp: true}
+  - {name: 🇫🇷 EPIC_法国1, server: fr.epicbrowser.net, port: 8888, type: http, tls: true, skip-cert-verify: false, udp: true}
+  - {name: 🇫🇷 EPIC_法国2, server: fr2.epicbrowser.net, port: 8888, type: http, tls: true, skip-cert-verify: false, udp: true}
+  - {name: 🇫🇷 EPIC_法国3, server: fr3.epicbrowser.net, port: 8888, type: http, tls: true, skip-cert-verify: false, udp: true}
+  - {name: 🇳🇱 EPIC_荷兰1, server: ne.epicbrowser.net, port: 8888, type: http, tls: true, skip-cert-verify: false, udp: true}
+  - {name: 🇳🇱 EPIC_荷兰2, server: ne2.epicbrowser.net, port: 8888, type: http, tls: true, skip-cert-verify: false, udp: true}
+  - {name: 🇳🇱 EPIC_荷兰3, server: ne3.epicbrowser.net, port: 8888, type: http, tls: true, skip-cert-verify: false, udp: true}
+  - {name: 🇮🇳 EPIC_印度1, server: ne.epicbrowser.net, port: 8888, type: http, tls: true, skip-cert-verify: false, udp: true}
+  - {name: 🇮🇳 EPIC_印度2, server: ne2.epicbrowser.net, port: 8888, type: http, tls: true, skip-cert-verify: false, udp: true}
+  - {name: 🇮🇳 EPIC_印度3, server: ne3.epicbrowser.net, port: 8888, type: http, tls: true, skip-cert-verify: false, udp: true}
+  - {name: 🇨🇦 EPIC_加拿大1, server: ca.epicbrowser.net, port: 8888, type: http, tls: true, skip-cert-verify: false, udp: true}
+  - {name: 🇨🇦 EPIC_加拿大2, server: ca2.epicbrowser.net, port: 8888, type: http, tls: true, skip-cert-verify: false, udp: true}
+  - {name: 🇨🇦 EPIC_加拿大3, server: ca3.epicbrowser.net, port: 8888, type: http, tls: true, skip-cert-verify: false, udp: true}
