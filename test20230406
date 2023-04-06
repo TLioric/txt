@@ -1,0 +1,11 @@
+proxies:
+  - {name: 美国 04 | 专线, server: 118.193.97.167, port: 443, type: trojan, password: b2ee8185-0f9a-49fe-9f42-66511ffcf406, skip-cert-verify: true, udp: true}
+  - {name: 美国 04 | 专线 2, server: 120.253.240.235, port: 443, type: trojan, password: b2ee8185-0f9a-49fe-9f42-66511ffcf406, skip-cert-verify: true, udp: true}
+  - {name: 美国 04 | 专线 3, server: 120.232.236.42, port: 443, type: trojan, password: b2ee8185-0f9a-49fe-9f42-66511ffcf406, skip-cert-verify: true, udp: true}
+  - {name: 美国 04 | 专线 4, server: 120.253.245.169, port: 443, type: trojan, password: b2ee8185-0f9a-49fe-9f42-66511ffcf406, skip-cert-verify: true, udp: true}
+  - {name: 美国 04 | 专线 5, server: 119.147.182.167, port: 443, type: trojan, password: b2ee8185-0f9a-49fe-9f42-66511ffcf406, skip-cert-verify: true, udp: true}
+  - {name: 美国 04 | 专线 6, server: 58.254.138.49, port: 443, type: trojan, password: b2ee8185-0f9a-49fe-9f42-66511ffcf406, skip-cert-verify: true, udp: true}
+  - {name: 美国 04 | 专线 7, server: 120.232.236.41, port: 443, type: trojan, password: b2ee8185-0f9a-49fe-9f42-66511ffcf406, skip-cert-verify: true, udp: true}
+  - {name: 美国 04 | 专线 8, server: 119.147.182.165, port: 443, type: trojan, password: b2ee8185-0f9a-49fe-9f42-66511ffcf406, skip-cert-verify: true, udp: true}
+  - {name: 美国 04 | 专线 9, server: 180.163.57.38, port: 443, type: trojan, password: b2ee8185-0f9a-49fe-9f42-66511ffcf406, skip-cert-verify: true, udp: true}
+  - {name: 美国 04 | 专线 10, server: 120.232.236.176, port: 443, type: trojan, password: b2ee8185-0f9a-49fe-9f42-66511ffcf406, skip-cert-verify: true, udp: true}
