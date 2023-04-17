@@ -1,0 +1,7 @@
+proxies:
+  - {name: 🇯🇵 免费-日本1替代Ver.4, server: jp01-alt-vm0.entry.srthdw.art, port: 21584, type: vmess, uuid: 5caf320c-8404-3c54-a1a5-7aecf9939cf2, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false}
+  - {name: 🇯🇵 免费-日本2-替代Ver.4, server: jp02-vm0.entry.srthdw.art, port: 447, type: vmess, uuid: 5caf320c-8404-3c54-a1a5-7aecf9939cf2, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇯🇵 免费-日本3替代Ver.4, server: jp03-alt-vm0.entry.srthdw.art, port: 21584, type: vmess, uuid: 5caf320c-8404-3c54-a1a5-7aecf9939cf2, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false}
+  - {name: 🇯🇵 免费-日本4-替代Ver.4, server: jp04-vm0.entry.srthdw.art, port: 447, type: vmess, uuid: 5caf320c-8404-3c54-a1a5-7aecf9939cf2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇯🇵 免费-日本5-Ver.4, server: jp05-vm0.entry.srthdw.art, port: 30592, type: vmess, uuid: 5caf320c-8404-3c54-a1a5-7aecf9939cf2, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: jp05-vm0.entry.srthdw.art}}, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: jp05-vm0.entry.srthdw.art}}
+  - {name: 🇯🇵 免费-日本6-替代Ver.4, server: jp06-alt-vm0.entry.jpojpoh.art, port: 28786, type: vmess, uuid: 5caf320c-8404-3c54-a1a5-7aecf9939cf2, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false}
