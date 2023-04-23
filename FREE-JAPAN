@@ -5,3 +5,120 @@ proxies:
   - {name: 🇯🇵 免费-日本4-替代Ver.4, server: jp04-vm0.entry.srthdw.art, port: 447, type: vmess, uuid: 5caf320c-8404-3c54-a1a5-7aecf9939cf2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
   - {name: 🇯🇵 免费-日本5-Ver.4, server: jp05-vm0.entry.srthdw.art, port: 30592, type: vmess, uuid: 5caf320c-8404-3c54-a1a5-7aecf9939cf2, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: jp05-vm0.entry.srthdw.art}}, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: jp05-vm0.entry.srthdw.art}}
   - {name: 🇯🇵 免费-日本6-替代Ver.4, server: jp06-alt-vm0.entry.jpojpoh.art, port: 28786, type: vmess, uuid: 5caf320c-8404-3c54-a1a5-7aecf9939cf2, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false}
+shadowsocks=:, method=, password=, ssr-protocol=, ssr-protocol-param=, obfs=, obfs-host=, fast-open=false, udp-relay=false, tag=
+
+shadowsocks=iepl-hn.cctelescope.xyz:20001, method=aes-256-cfb, password=hGkQ6915tD, ssr-protocol=auth_aes128_md5, ssr-protocol-param=227010:S6mN239vRU, obfs=tls1.2_ticket_auth, obfs-host=tls1.2_ticket_auth, fast-open=false, udp-relay=false, tag=香港_R_450
+
+shadowsocks=iepl-hn.cctelescope.xyz:21702, method=aes-256-cfb, password=hGkQ6915tD, ssr-protocol=auth_aes128_md5, ssr-protocol-param=227010:S6mN239vRU, obfs=tls1.2_ticket_auth, obfs-host=tls1.2_ticket_auth, fast-open=false, udp-relay=false, tag=香港_R_428
+
+shadowsocks=iepl-zh.safetelescope.cc:11804, method=aes-256-cfb, password=hGkQ6915tD, ssr-protocol=auth_aes128_md5, ssr-protocol-param=227010:S6mN239vRU, obfs=tls1.2_ticket_auth, obfs-host=tls1.2_ticket_auth, fast-open=false, udp-relay=false, tag=香港_R_316
+
+shadowsocks=hn-01.cctelescope.xyz:20001, method=aes-256-cfb, password=hGkQ6915tD, ssr-protocol=auth_aes128_md5, ssr-protocol-param=227010:S6mN239vRU, obfs=tls1.2_ticket_auth, obfs-host=tls1.2_ticket_auth, fast-open=false, udp-relay=false, tag=香港_R_275
+
+shadowsocks=hn-01.cctelescope.xyz:41998, method=aes-256-cfb, password=hGkQ6915tD, ssr-protocol=auth_aes128_md5, ssr-protocol-param=227010:S6mN239vRU, obfs=tls1.2_ticket_auth, obfs-host=tls1.2_ticket_auth, fast-open=false, udp-relay=false, tag=香港_R_160
+
+shadowsocks=hn-01.cctelescope.xyz:30003, method=aes-256-cfb, password=hGkQ6915tD, ssr-protocol=auth_aes128_md5, ssr-protocol-param=227010:S6mN239vRU, obfs=tls1.2_ticket_auth, obfs-host=tls1.2_ticket_auth, fast-open=false, udp-relay=false, tag=韩国_R_234
+
+shadowsocks=wz.safetelescope.cc:62307, method=aes-256-cfb, password=hGkQ6915tD, ssr-protocol=auth_aes128_md5, ssr-protocol-param=227010:S6mN239vRU, obfs=tls1.2_ticket_auth, obfs-host=tls1.2_ticket_auth, fast-open=false, udp-relay=false, tag=阿联酋_R_575
+
+shadowsocks=iepl-hn.cctelescope.xyz:21563, method=aes-256-cfb, password=hGkQ6915tD, ssr-protocol=auth_aes128_md5, ssr-protocol-param=227010:S6mN239vRU, obfs=tls1.2_ticket_auth, obfs-host=tls1.2_ticket_auth, fast-open=false, udp-relay=false, tag=阿根廷_R_555
+
+shadowsocks=ieplszhk-sz.cctelescope.xyz:50899, method=aes-256-cfb, password=hGkQ6915tD, ssr-protocol=auth_aes128_md5, ssr-protocol-param=227010:S6mN239vRU, obfs=tls1.2_ticket_auth, obfs-host=tls1.2_ticket_auth, fast-open=false, udp-relay=false, tag=越南_R_448
+
+shadowsocks=iepl-hn.cctelescope.xyz:21738, method=aes-256-cfb, password=hGkQ6915tD, ssr-protocol=auth_aes128_md5, ssr-protocol-param=227010:S6mN239vRU, obfs=tls1.2_ticket_auth, obfs-host=tls1.2_ticket_auth, fast-open=false, udp-relay=false, tag=越南_R_380
+
+shadowsocks=iepl-zh.safetelescope.cc:11899, method=aes-256-cfb, password=hGkQ6915tD, ssr-protocol=auth_aes128_md5, ssr-protocol-param=227010:S6mN239vRU, obfs=tls1.2_ticket_auth, obfs-host=tls1.2_ticket_auth, fast-open=false, udp-relay=false, tag=越南_R_377
+
+shadowsocks=hn-01.cctelescope.xyz:49036, method=aes-256-cfb, password=hGkQ6915tD, ssr-protocol=auth_aes128_md5, ssr-protocol-param=227010:S6mN239vRU, obfs=tls1.2_ticket_auth, obfs-host=tls1.2_ticket_auth, fast-open=false, udp-relay=false, tag=越南_R_277
+
+shadowsocks=hn-01.cctelescope.xyz:62400, method=aes-256-cfb, password=hGkQ6915tD, ssr-protocol=auth_aes128_md5, ssr-protocol-param=227010:S6mN239vRU, obfs=tls1.2_ticket_auth, obfs-host=tls1.2_ticket_auth, fast-open=false, udp-relay=false, tag=西班牙_R_566
+
+shadowsocks=wz.safetelescope.cc:62100, method=aes-256-cfb, password=hGkQ6915tD, ssr-protocol=auth_aes128_md5, ssr-protocol-param=227010:S6mN239vRU, obfs=tls1.2_ticket_auth, obfs-host=tls1.2_ticket_auth, fast-open=false, udp-relay=false, tag=葡萄牙_R_565
+
+shadowsocks=hn-01.cctelescope.xyz:45705, method=aes-256-cfb, password=hGkQ6915tD, ssr-protocol=auth_aes128_md5, ssr-protocol-param=227010:S6mN239vRU, obfs=tls1.2_ticket_auth, obfs-host=tls1.2_ticket_auth, fast-open=false, udp-relay=false, tag=菲律宾_R_399
+
+shadowsocks=iepl-hn.cctelescope.xyz:21293, method=aes-256-cfb, password=hGkQ6915tD, ssr-protocol=auth_aes128_md5, ssr-protocol-param=227010:S6mN239vRU, obfs=tls1.2_ticket_auth, obfs-host=tls1.2_ticket_auth, fast-open=false, udp-relay=false, tag=菲律宾_R_196
+
+shadowsocks=iepl-hn.cctelescope.xyz:21261, method=aes-256-cfb, password=hGkQ6915tD, ssr-protocol=auth_aes128_md5, ssr-protocol-param=227010:S6mN239vRU, obfs=tls1.2_ticket_auth, obfs-host=tls1.2_ticket_auth, fast-open=false, udp-relay=false, tag=英国_R_366
+
+shadowsocks=iepl-zh.safetelescope.cc:11658, method=aes-256-cfb, password=hGkQ6915tD, ssr-protocol=auth_aes128_md5, ssr-protocol-param=227010:S6mN239vRU, obfs=tls1.2_ticket_auth, obfs-host=tls1.2_ticket_auth, fast-open=false, udp-relay=false, tag=美国_R_370
+
+shadowsocks=iepl-hn.cctelescope.xyz:21632, method=aes-256-cfb, password=hGkQ6915tD, ssr-protocol=auth_aes128_md5, ssr-protocol-param=227010:S6mN239vRU, obfs=tls1.2_ticket_auth, obfs-host=tls1.2_ticket_auth, fast-open=false, udp-relay=false, tag=美国_R_335
+
+shadowsocks=hn-01.cctelescope.xyz:40678, method=aes-256-cfb, password=hGkQ6915tD, ssr-protocol=auth_aes128_md5, ssr-protocol-param=227010:S6mN239vRU, obfs=tls1.2_ticket_auth, obfs-host=tls1.2_ticket_auth, fast-open=false, udp-relay=false, tag=美国_R_273
+
+shadowsocks=sh163.safetelescope.cc:62306, method=aes-256-cfb, password=hGkQ6915tD, ssr-protocol=auth_aes128_md5, ssr-protocol-param=227010:S6mN239vRU, obfs=tls1.2_ticket_auth, obfs-host=tls1.2_ticket_auth, fast-open=false, udp-relay=false, tag=美国_R_21
+
+shadowsocks=hn-01.cctelescope.xyz:62402, method=aes-256-cfb, password=hGkQ6915tD, ssr-protocol=auth_aes128_md5, ssr-protocol-param=227010:S6mN239vRU, obfs=tls1.2_ticket_auth, obfs-host=tls1.2_ticket_auth, fast-open=false, udp-relay=false, tag=瑞士_R_570
+
+shadowsocks=iepl-hn.cctelescope.xyz:21099, method=aes-256-cfb, password=hGkQ6915tD, ssr-protocol=auth_aes128_md5, ssr-protocol-param=227010:S6mN239vRU, obfs=tls1.2_ticket_auth, obfs-host=tls1.2_ticket_auth, fast-open=false, udp-relay=false, tag=瑞典_R_362
+
+shadowsocks=ieplszhk-sz.cctelescope.xyz:50058, method=aes-256-cfb, password=hGkQ6915tD, ssr-protocol=auth_aes128_md5, ssr-protocol-param=227010:S6mN239vRU, obfs=tls1.2_ticket_auth, obfs-host=tls1.2_ticket_auth, fast-open=false, udp-relay=false, tag=爱沙尼亚_R_453
+
+shadowsocks=hn-01.cctelescope.xyz:62404, method=aes-256-cfb, password=hGkQ6915tD, ssr-protocol=auth_aes128_md5, ssr-protocol-param=227010:S6mN239vRU, obfs=tls1.2_ticket_auth, obfs-host=tls1.2_ticket_auth, fast-open=false, udp-relay=false, tag=爱尔兰_R_518
+
+shadowsocks=iepl-zh.safetelescope.cc:11919, method=aes-256-cfb, password=hGkQ6915tD, ssr-protocol=auth_aes128_md5, ssr-protocol-param=227010:S6mN239vRU, obfs=tls1.2_ticket_auth, obfs-host=tls1.2_ticket_auth, fast-open=false, udp-relay=false, tag=澳大利亚_R_560
+
+shadowsocks=hn-01.cctelescope.xyz:62300, method=aes-256-cfb, password=hGkQ6915tD, ssr-protocol=auth_aes128_md5, ssr-protocol-param=227010:S6mN239vRU, obfs=tls1.2_ticket_auth, obfs-host=tls1.2_ticket_auth, fast-open=false, udp-relay=false, tag=澳大利亚_R_100
+
+shadowsocks=hn-01.cctelescope.xyz:29404, method=aes-256-cfb, password=hGkQ6915tD, ssr-protocol=auth_aes128_md5, ssr-protocol-param=227010:S6mN239vRU, obfs=tls1.2_ticket_auth, obfs-host=tls1.2_ticket_auth, fast-open=false, udp-relay=false, tag=泰国_R_558
+
+shadowsocks=iepl-zh.safetelescope.cc:11799, method=aes-256-cfb, password=hGkQ6915tD, ssr-protocol=auth_aes128_md5, ssr-protocol-param=227010:S6mN239vRU, obfs=tls1.2_ticket_auth, obfs-host=tls1.2_ticket_auth, fast-open=false, udp-relay=false, tag=泰国_R_557
+
+shadowsocks=ieplszhk-sz.cctelescope.xyz:50402, method=aes-256-cfb, password=hGkQ6915tD, ssr-protocol=auth_aes128_md5, ssr-protocol-param=227010:S6mN239vRU, obfs=tls1.2_ticket_auth, obfs-host=tls1.2_ticket_auth, fast-open=false, udp-relay=false, tag=泰国_R_520
+
+shadowsocks=iepl-zh.safetelescope.cc:11853, method=aes-256-cfb, password=hGkQ6915tD, ssr-protocol=auth_aes128_md5, ssr-protocol-param=227010:S6mN239vRU, obfs=tls1.2_ticket_auth, obfs-host=tls1.2_ticket_auth, fast-open=false, udp-relay=false, tag=法国_R_372
+
+shadowsocks=ieplszhk-sz.cctelescope.xyz:50312, method=aes-256-cfb, password=hGkQ6915tD, ssr-protocol=auth_aes128_md5, ssr-protocol-param=227010:S6mN239vRU, obfs=tls1.2_ticket_auth, obfs-host=tls1.2_ticket_auth, fast-open=false, udp-relay=false, tag=日本_R_510
+
+shadowsocks=iepl-hn.cctelescope.xyz:21078, method=aes-256-cfb, password=hGkQ6915tD, ssr-protocol=auth_aes128_md5, ssr-protocol-param=227010:S6mN239vRU, obfs=tls1.2_ticket_auth, obfs-host=tls1.2_ticket_auth, fast-open=false, udp-relay=false, tag=日本_R_498
+
+shadowsocks=ieplszhk-sz.cctelescope.xyz:50306, method=aes-256-cfb, password=hGkQ6915tD, ssr-protocol=auth_aes128_md5, ssr-protocol-param=227010:S6mN239vRU, obfs=tls1.2_ticket_auth, obfs-host=tls1.2_ticket_auth, fast-open=false, udp-relay=false, tag=新加坡_R_441
+
+shadowsocks=iepl-zh.safetelescope.cc:11600, method=aes-256-cfb, password=hGkQ6915tD, ssr-protocol=auth_aes128_md5, ssr-protocol-param=227010:S6mN239vRU, obfs=tls1.2_ticket_auth, obfs-host=tls1.2_ticket_auth, fast-open=false, udp-relay=false, tag=新加坡_R_434
+
+shadowsocks=hn-01.cctelescope.xyz:62303, method=aes-256-cfb, password=hGkQ6915tD, ssr-protocol=auth_aes128_md5, ssr-protocol-param=227010:S6mN239vRU, obfs=tls1.2_ticket_auth, obfs-host=tls1.2_ticket_auth, fast-open=false, udp-relay=false, tag=新加坡_R_251
+
+shadowsocks=hn-01.cctelescope.xyz:20002, method=aes-256-cfb, password=hGkQ6915tD, ssr-protocol=auth_aes128_md5, ssr-protocol-param=227010:S6mN239vRU, obfs=tls1.2_ticket_auth, obfs-host=tls1.2_ticket_auth, fast-open=false, udp-relay=false, tag=新加坡_R_135
+
+shadowsocks=hn-01.cctelescope.xyz:62309, method=aes-256-cfb, password=hGkQ6915tD, ssr-protocol=auth_aes128_md5, ssr-protocol-param=227010:S6mN239vRU, obfs=tls1.2_ticket_auth, obfs-host=tls1.2_ticket_auth, fast-open=false, udp-relay=false, tag=斯洛伐克_R_546
+
+shadowsocks=iepl-hn.cctelescope.xyz:21319, method=aes-256-cfb, password=hGkQ6915tD, ssr-protocol=auth_aes128_md5, ssr-protocol-param=227010:S6mN239vRU, obfs=tls1.2_ticket_auth, obfs-host=tls1.2_ticket_auth, fast-open=false, udp-relay=false, tag=捷克_R_506
+
+shadowsocks=sh163.safetelescope.cc:62301, method=aes-256-cfb, password=hGkQ6915tD, ssr-protocol=auth_aes128_md5, ssr-protocol-param=227010:S6mN239vRU, obfs=tls1.2_ticket_auth, obfs-host=tls1.2_ticket_auth, fast-open=false, udp-relay=false, tag=德国_R_523
+
+shadowsocks=ieplszhk-sz.cctelescope.xyz:50354, method=aes-256-cfb, password=hGkQ6915tD, ssr-protocol=auth_aes128_md5, ssr-protocol-param=227010:S6mN239vRU, obfs=tls1.2_ticket_auth, obfs-host=tls1.2_ticket_auth, fast-open=false, udp-relay=false, tag=尼日利亚_R_514
+
+shadowsocks=iepl-hn.cctelescope.xyz:21565, method=aes-256-cfb, password=hGkQ6915tD, ssr-protocol=auth_aes128_md5, ssr-protocol-param=227010:S6mN239vRU, obfs=tls1.2_ticket_auth, obfs-host=tls1.2_ticket_auth, fast-open=false, udp-relay=false, tag=土耳其_R_458
+
+shadowsocks=wz.safetelescope.cc:62308, method=aes-256-cfb, password=hGkQ6915tD, ssr-protocol=auth_aes128_md5, ssr-protocol-param=227010:S6mN239vRU, obfs=tls1.2_ticket_auth, obfs-host=tls1.2_ticket_auth, fast-open=false, udp-relay=false, tag=哈萨克斯坦_R_571
+
+shadowsocks=iepl-hn.cctelescope.xyz:21399, method=aes-256-cfb, password=hGkQ6915tD, ssr-protocol=auth_aes128_md5, ssr-protocol-param=227010:S6mN239vRU, obfs=tls1.2_ticket_auth, obfs-host=tls1.2_ticket_auth, fast-open=false, udp-relay=false, tag=台湾_R_337
+
+shadowsocks=iepl-zh.safetelescope.cc:11802, method=aes-256-cfb, password=hGkQ6915tD, ssr-protocol=auth_aes128_md5, ssr-protocol-param=227010:S6mN239vRU, obfs=tls1.2_ticket_auth, obfs-host=tls1.2_ticket_auth, fast-open=false, udp-relay=false, tag=台湾_R_318
+
+shadowsocks=ieplszhk-sz.cctelescope.xyz:50802, method=aes-256-cfb, password=hGkQ6915tD, ssr-protocol=auth_aes128_md5, ssr-protocol-param=227010:S6mN239vRU, obfs=tls1.2_ticket_auth, obfs-host=tls1.2_ticket_auth, fast-open=false, udp-relay=false, tag=台湾_R_314
+
+shadowsocks=hn-01.cctelescope.xyz:30002, method=aes-256-cfb, password=hGkQ6915tD, ssr-protocol=auth_aes128_md5, ssr-protocol-param=227010:S6mN239vRU, obfs=tls1.2_ticket_auth, obfs-host=tls1.2_ticket_auth, fast-open=false, udp-relay=false, tag=台湾_R_272
+
+shadowsocks=ieplszhk-sz.cctelescope.xyz:50578, method=aes-256-cfb, password=hGkQ6915tD, ssr-protocol=auth_aes128_md5, ssr-protocol-param=227010:S6mN239vRU, obfs=tls1.2_ticket_auth, obfs-host=tls1.2_ticket_auth, fast-open=false, udp-relay=false, tag=印度尼西亚_R_521
+
+shadowsocks=iepl-hn.cctelescope.xyz:21637, method=aes-256-cfb, password=hGkQ6915tD, ssr-protocol=auth_aes128_md5, ssr-protocol-param=227010:S6mN239vRU, obfs=tls1.2_ticket_auth, obfs-host=tls1.2_ticket_auth, fast-open=false, udp-relay=false, tag=印度_R_361
+
+shadowsocks=hn-01.cctelescope.xyz:62304, method=aes-256-cfb, password=hGkQ6915tD, ssr-protocol=auth_aes128_md5, ssr-protocol-param=227010:S6mN239vRU, obfs=tls1.2_ticket_auth, obfs-host=tls1.2_ticket_auth, fast-open=false, udp-relay=false, tag=印度_R_325
+
+shadowsocks=iepl-hn.cctelescope.xyz:21164, method=aes-256-cfb, password=hGkQ6915tD, ssr-protocol=auth_aes128_md5, ssr-protocol-param=227010:S6mN239vRU, obfs=tls1.2_ticket_auth, obfs-host=tls1.2_ticket_auth, fast-open=false, udp-relay=false, tag=加拿大_R_365
+
+shadowsocks=wz.safetelescope.cc:62302, method=aes-256-cfb, password=hGkQ6915tD, ssr-protocol=auth_aes128_md5, ssr-protocol-param=227010:S6mN239vRU, obfs=tls1.2_ticket_auth, obfs-host=tls1.2_ticket_auth, fast-open=false, udp-relay=false, tag=加拿大_R_339
+
+shadowsocks=hn-01.cctelescope.xyz:62401, method=aes-256-cfb, password=hGkQ6915tD, ssr-protocol=auth_aes128_md5, ssr-protocol-param=227010:S6mN239vRU, obfs=tls1.2_ticket_auth, obfs-host=tls1.2_ticket_auth, fast-open=false, udp-relay=false, tag=冰岛_R_569
+
+shadowsocks=wz.safetelescope.cc:62101, method=aes-256-cfb, password=hGkQ6915tD, ssr-protocol=auth_aes128_md5, ssr-protocol-param=227010:S6mN239vRU, obfs=tls1.2_ticket_auth, obfs-host=tls1.2_ticket_auth, fast-open=false, udp-relay=false, tag=保加利亚_R_572
+
+shadowsocks=ieplszhk-sz.cctelescope.xyz:50568, method=aes-256-cfb, password=hGkQ6915tD, ssr-protocol=auth_aes128_md5, ssr-protocol-param=227010:S6mN239vRU, obfs=tls1.2_ticket_auth, obfs-host=tls1.2_ticket_auth, fast-open=false, udp-relay=false, tag=俄罗斯_R_577
+
+shadowsocks=sh163.safetelescope.cc:62305, method=aes-256-cfb, password=hGkQ6915tD, ssr-protocol=auth_aes128_md5, ssr-protocol-param=227010:S6mN239vRU, obfs=tls1.2_ticket_auth, obfs-host=tls1.2_ticket_auth, fast-open=false, udp-relay=false, tag=俄罗斯_R_543
+
+shadowsocks=hn-01.cctelescope.xyz:26096, method=aes-256-cfb, password=hGkQ6915tD, ssr-protocol=auth_aes128_md5, ssr-protocol-param=227010:S6mN239vRU, obfs=tls1.2_ticket_auth, obfs-host=tls1.2_ticket_auth, fast-open=false, udp-relay=false, tag=俄罗斯_R_324
+
+shadowsocks=ieplszhk-sz.cctelescope.xyz:50326, method=aes-256-cfb, password=hGkQ6915tD, ssr-protocol=auth_aes128_md5, ssr-protocol-param=227010:S6mN239vRU, obfs=tls1.2_ticket_auth, obfs-host=tls1.2_ticket_auth, fast-open=false, udp-relay=false, tag=以色列_R_456
