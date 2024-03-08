@@ -15,8 +15,8 @@ dns:
     fallback: ['https://doh.dns.sb/dns-query', 'https://dns.cloudflare.com/dns-query', 'https://dns.twnic.tw/dns-query', 'tls://8.8.4.4:853']
     fallback-filter: { geoip: true, ipcidr: [240.0.0.0/4, 0.0.0.0/32] }
 proxies:
-    - {name: "🇭🇰 [BosLife] 香港-01", server: h00kgaa1.hand992.com, port: 60010, type: trojan, password: b18d4174-5d38-4f38-8740-3a68c3fc01c6, sni: hk4.networkspeed.info, skip-cert-verify: true, udp: true}
-  - {name: "🇭🇰 [BosLife] 香港-02", server: h00kgbb2.hand992.com, port: 60011, type: trojan, password: b18d4174-5d38-4f38-8740-3a68c3fc01c6, sni: hk1.networkspeed.info, skip-cert-verify: true, udp: true}
+- {name: "🇭🇰 [BosLife] 香港-01", server: h00kgaa1.hand992.com, port: 60010, type: trojan, password: b18d4174-5d38-4f38-8740-3a68c3fc01c6, sni: hk4.networkspeed.info, skip-cert-verify: true, udp: true}
+- {name: "🇭🇰 [BosLife] 香港-02", server: h00kgbb2.hand992.com, port: 60011, type: trojan, password: b18d4174-5d38-4f38-8740-3a68c3fc01c6, sni: hk1.networkspeed.info, skip-cert-verify: true, udp: true}
   - {name: "🇭🇰 [BosLife] 香港-03", server: h00kgaa3.hand992.com, port: 60012, type: trojan, password: b18d4174-5d38-4f38-8740-3a68c3fc01c6, sni: hk3.networkspeed.info, skip-cert-verify: true, udp: true}
   - {name: "🇭🇰 [BosLife] 香港-04", server: h00kgbb4.hand992.com, port: 60013, type: trojan, password: b18d4174-5d38-4f38-8740-3a68c3fc01c6, sni: hk1.networkspeed.info, skip-cert-verify: true, udp: true}
   - {name: "🇭🇰 [BosLife] 香港-05", server: h00kgbb5.hand992.com, port: 60014, type: trojan, password: b18d4174-5d38-4f38-8740-3a68c3fc01c6, sni: hk1.networkspeed.info, skip-cert-verify: true, udp: true}
@@ -71,7 +71,7 @@ proxies:
   - {name: "🇨🇦 [BosLife] 加拿大-02", server: ca00nbb2.hand992.com, port: 60122, type: trojan, password: b18d4174-5d38-4f38-8740-3a68c3fc01c6, sni: ca1.networkspeed.info, skip-cert-verify: true, udp: true}
   - {name: "🇨🇦 [BosLife] 加拿大-01", server: ca00nbb1.hand992.com, port: 60121, type: trojan, password: b18d4174-5d38-4f38-8740-3a68c3fc01c6, sni: ca1.networkspeed.info, skip-cert-verify: true, udp: true}
   - {name: "🇮🇳 [BosLife] 印度-01", server: argt1.hand992.com, port: 60135, type: trojan, password: b18d4174-5d38-4f38-8740-3a68c3fc01c6, sni: arg1.networkspeed.info, skip-cert-verify: true, udp: true}
-- {name: 距离下次重置剩余：15 天, server: h00kgaa1.hand992.com, port: 60010, type: trojan, password: 41c50342-8b0f-47f3-8094-c6f373d96877, sni: hk4.networkspeed.info, skip-cert-verify: true, udp: true}
+  - {name: 距离下次重置剩余：15 天, server: h00kgaa1.hand992.com, port: 60010, type: trojan, password: 41c50342-8b0f-47f3-8094-c6f373d96877, sni: hk4.networkspeed.info, skip-cert-verify: true, udp: true}
   - {name: "🇭🇰 [BosLife] 香港-01", server: h00kgaa1.hand992.com, port: 60010, type: trojan, password: 41c50342-8b0f-47f3-8094-c6f373d96877, sni: hk4.networkspeed.info, skip-cert-verify: true, udp: true}
   - {name: "🇭🇰 [BosLife] 香港-02", server: h00kgbb2.hand992.com, port: 60011, type: trojan, password: 41c50342-8b0f-47f3-8094-c6f373d96877, sni: hk1.networkspeed.info, skip-cert-verify: true, udp: true}
   - {name: "🇭🇰 [BosLife] 香港-03", server: h00kgaa3.hand992.com, port: 60012, type: trojan, password: 41c50342-8b0f-47f3-8094-c6f373d96877, sni: hk3.networkspeed.info, skip-cert-verify: true, udp: true}
@@ -177,7 +177,7 @@ proxies:
     - { name: '美国 ❀原生❀小豆豆❀1倍', type: ss, server: mdz.ovogood.xyz, port: 40023, cipher: aes-256-gcm, password: dd04290b-8f38-459d-b9e2-966a697e9a5d, udp: true }
     - { name: '德国 ❀GPT❀大豆豆❀1倍', type: ss, server: mdz.ovogood.xyz, port: 40024, cipher: aes-256-gcm, password: dd04290b-8f38-459d-b9e2-966a697e9a5d, udp: true }
     - { name: '德国 ❀GPT❀小豆豆❀1倍', type: ss, server: mdz.ovogood.xyz, port: 40024, cipher: aes-256-gcm, password: dd04290b-8f38-459d-b9e2-966a697e9a5d, udp: true }
-  - { name: '🇭🇰 香港 01', type: ss, server: newstab.bygcloud.xyz, port: 21101, cipher: aes-128-gcm, password: 796e10f7-af65-4d02-8fd2-5795cb161855, udp: true }
+     - { name: '🇭🇰 香港 01', type: ss, server: newstab.bygcloud.xyz, port: 21101, cipher: aes-128-gcm, password: 796e10f7-af65-4d02-8fd2-5795cb161855, udp: true }
     - { name: '🇭🇰 香港 02', type: ss, server: newstab.bygcloud.xyz, port: 21102, cipher: aes-128-gcm, password: 796e10f7-af65-4d02-8fd2-5795cb161855, udp: true }
     - { name: '🇭🇰 香港 03', type: ss, server: newstab.bygcloud.xyz, port: 21103, cipher: aes-128-gcm, password: 796e10f7-af65-4d02-8fd2-5795cb161855, udp: true }
     - { name: '🇭🇰 香港 04', type: ss, server: newstab.bygcloud.xyz, port: 21004, cipher: aes-128-gcm, password: 796e10f7-af65-4d02-8fd2-5795cb161855, udp: true }
