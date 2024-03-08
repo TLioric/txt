@@ -15,25 +15,60 @@ dns:
     fallback: ['https://doh.dns.sb/dns-query', 'https://dns.cloudflare.com/dns-query', 'https://dns.twnic.tw/dns-query', 'tls://8.8.4.4:853']
     fallback-filter: { geoip: true, ipcidr: [240.0.0.0/4, 0.0.0.0/32] }
 proxies:
-    - { name: '剩余流量：567.85 GB', type: ss, server: mdz.ovogood.xyz, port: 40015, cipher: aes-256-gcm, password: dd04290b-8f38-459d-b9e2-966a697e9a5d, udp: true }
-    - { name: 套餐到期：长期有效, type: ss, server: mdz.ovogood.xyz, port: 40015, cipher: aes-256-gcm, password: dd04290b-8f38-459d-b9e2-966a697e9a5d, udp: true }
-    - { name: '香港 ❀原生❀大豆豆❀1倍', type: ss, server: mdz.ovogood.xyz, port: 40015, cipher: aes-256-gcm, password: dd04290b-8f38-459d-b9e2-966a697e9a5d, udp: true }
-    - { name: '香港 ❀原生❀小豆豆❀1倍', type: ss, server: mdz.ovogood.xyz, port: 40015, cipher: aes-256-gcm, password: dd04290b-8f38-459d-b9e2-966a697e9a5d, udp: true }
-    - { name: '日本 ❀大豆豆❀1倍', type: ss, server: mdz.ovogood.xyz, port: 40016, cipher: aes-256-gcm, password: dd04290b-8f38-459d-b9e2-966a697e9a5d, udp: true }
-    - { name: '日本 ❀小豆豆❀1倍', type: ss, server: mdz.ovogood.xyz, port: 40016, cipher: aes-256-gcm, password: dd04290b-8f38-459d-b9e2-966a697e9a5d, udp: true }
-    - { name: '新加坡 ❀大豆豆❀1倍', type: ss, server: mdz.ovogood.xyz, port: 40017, cipher: aes-256-gcm, password: dd04290b-8f38-459d-b9e2-966a697e9a5d, udp: true }
-    - { name: '新加坡 ❀小豆豆❀1倍', type: ss, server: mdz.ovogood.xyz, port: 40017, cipher: aes-256-gcm, password: dd04290b-8f38-459d-b9e2-966a697e9a5d, udp: true }
-    - { name: '印尼 ❀大豆豆❀1倍', type: ss, server: mdz.ovogood.xyz, port: 40018, cipher: aes-256-gcm, password: dd04290b-8f38-459d-b9e2-966a697e9a5d, udp: true }
-    - { name: '印尼 ❀小豆豆❀1倍', type: ss, server: mdz.ovogood.xyz, port: 40018, cipher: aes-256-gcm, password: dd04290b-8f38-459d-b9e2-966a697e9a5d, udp: true }
-    - { name: '马来西亚 ❀原生❀大豆豆❀1倍', type: ss, server: mdz.ovogood.xyz, port: 40019, cipher: aes-256-gcm, password: dd04290b-8f38-459d-b9e2-966a697e9a5d, udp: true }
-    - { name: '马来西亚 ❀原生❀小豆豆❀1倍', type: ss, server: mdz.ovogood.xyz, port: 40019, cipher: aes-256-gcm, password: dd04290b-8f38-459d-b9e2-966a697e9a5d, udp: true }
-    - { name: '越南 ❀原生❀大豆豆❀1倍', type: ss, server: mdz.ovogood.xyz, port: 40020, cipher: aes-256-gcm, password: dd04290b-8f38-459d-b9e2-966a697e9a5d, udp: true }
-    - { name: '越南 ❀原生❀小豆豆❀1倍', type: ss, server: mdz.ovogood.xyz, port: 40020, cipher: aes-256-gcm, password: dd04290b-8f38-459d-b9e2-966a697e9a5d, udp: true }
-    - { name: '印度 ❀小豆豆❀1倍', type: ss, server: mdz.ovogood.xyz, port: 40021, cipher: aes-256-gcm, password: dd04290b-8f38-459d-b9e2-966a697e9a5d, udp: true }
-    - { name: '印度 ❀大豆豆❀1倍', type: ss, server: mdz.ovogood.xyz, port: 40021, cipher: aes-256-gcm, password: dd04290b-8f38-459d-b9e2-966a697e9a5d, udp: true }
-    - { name: '澳大利亚 ❀大豆豆❀1倍', type: ss, server: mdz.ovogood.xyz, port: 40022, cipher: aes-256-gcm, password: dd04290b-8f38-459d-b9e2-966a697e9a5d, udp: true }
-    - { name: '澳大利亚 ❀小豆豆❀1倍', type: ss, server: mdz.ovogood.xyz, port: 40022, cipher: aes-256-gcm, password: dd04290b-8f38-459d-b9e2-966a697e9a5d, udp: true }
-    - { name: '美国 ❀原生❀大豆豆❀1倍', type: ss, server: mdz.ovogood.xyz, port: 40023, cipher: aes-256-gcm, password: dd04290b-8f38-459d-b9e2-966a697e9a5d, udp: true }
-    - { name: '美国 ❀原生❀小豆豆❀1倍', type: ss, server: mdz.ovogood.xyz, port: 40023, cipher: aes-256-gcm, password: dd04290b-8f38-459d-b9e2-966a697e9a5d, udp: true }
-    - { name: '德国 ❀GPT❀大豆豆❀1倍', type: ss, server: mdz.ovogood.xyz, port: 40024, cipher: aes-256-gcm, password: dd04290b-8f38-459d-b9e2-966a697e9a5d, udp: true }
-    - { name: '德国 ❀GPT❀小豆豆❀1倍', type: ss, server: mdz.ovogood.xyz, port: 40024, cipher: aes-256-gcm, password: dd04290b-8f38-459d-b9e2-966a697e9a5d, udp: true }
+    - {name: "🇭🇰 [BosLife] 香港-01", server: h00kgaa1.hand992.com, port: 60010, type: trojan, password: b18d4174-5d38-4f38-8740-3a68c3fc01c6, sni: hk4.networkspeed.info, skip-cert-verify: true, udp: true}
+  - {name: "🇭🇰 [BosLife] 香港-02", server: h00kgbb2.hand992.com, port: 60011, type: trojan, password: b18d4174-5d38-4f38-8740-3a68c3fc01c6, sni: hk1.networkspeed.info, skip-cert-verify: true, udp: true}
+  - {name: "🇭🇰 [BosLife] 香港-03", server: h00kgaa3.hand992.com, port: 60012, type: trojan, password: b18d4174-5d38-4f38-8740-3a68c3fc01c6, sni: hk3.networkspeed.info, skip-cert-verify: true, udp: true}
+  - {name: "🇭🇰 [BosLife] 香港-04", server: h00kgbb4.hand992.com, port: 60013, type: trojan, password: b18d4174-5d38-4f38-8740-3a68c3fc01c6, sni: hk1.networkspeed.info, skip-cert-verify: true, udp: true}
+  - {name: "🇭🇰 [BosLife] 香港-05", server: h00kgbb5.hand992.com, port: 60014, type: trojan, password: b18d4174-5d38-4f38-8740-3a68c3fc01c6, sni: hk1.networkspeed.info, skip-cert-verify: true, udp: true}
+  - {name: "🇭🇰 [BosLife] 香港-06", server: h00kgaa6.hand992.com, port: 60015, type: trojan, password: b18d4174-5d38-4f38-8740-3a68c3fc01c6, sni: hk3.networkspeed.info, skip-cert-verify: true, udp: true}
+  - {name: "🇭🇰 [BosLife] 香港-07", server: h00kgcc7.hand992.com, port: 60016, type: trojan, password: b18d4174-5d38-4f38-8740-3a68c3fc01c6, sni: hk2.networkspeed.info, skip-cert-verify: true, udp: true}
+  - {name: "🇭🇰 [BosLife] 香港-08", server: h00kgaa8.hand992.com, port: 60017, type: trojan, password: b18d4174-5d38-4f38-8740-3a68c3fc01c6, sni: hk3.networkspeed.info, skip-cert-verify: true, udp: true}
+  - {name: "🇭🇰 [BosLife] 香港-09", server: h00kgcc9.hand992.com, port: 60018, type: trojan, password: b18d4174-5d38-4f38-8740-3a68c3fc01c6, sni: hk2.networkspeed.info, skip-cert-verify: true, udp: true}
+  - {name: "🇭🇰 [BosLife] 香港-10", server: h00kgcc10.hand992.com, port: 60019, type: trojan, password: b18d4174-5d38-4f38-8740-3a68c3fc01c6, sni: hk2.networkspeed.info, skip-cert-verify: true, udp: true}
+  - {name: "🇭🇰 [BosLife] 香港-11", server: h00gcc11.hand992.com, port: 60020, type: trojan, password: b18d4174-5d38-4f38-8740-3a68c3fc01c6, sni: hk4.networkspeed.info, skip-cert-verify: true, udp: true}
+  - {name: "🇭🇰 [BosLife] 香港-12", server: h00gcc12.hand992.com, port: 60021, type: trojan, password: b18d4174-5d38-4f38-8740-3a68c3fc01c6, sni: hk4.networkspeed.info, skip-cert-verify: true, udp: true}
+  - {name: "🇭🇰 [BosLife] 香港-13", server: h00gcc13.hand992.com, port: 60022, type: trojan, password: b18d4174-5d38-4f38-8740-3a68c3fc01c6, sni: hk5.networkspeed.info, skip-cert-verify: true, udp: true}
+  - {name: "🇭🇰 [BosLife] 香港-14", server: h00gcc14.hand992.com, port: 60023, type: trojan, password: b18d4174-5d38-4f38-8740-3a68c3fc01c6, sni: hk5.networkspeed.info, skip-cert-verify: true, udp: true}
+  - {name: "🇭🇰 [BosLife] 香港-15", server: h00gcc15.hand992.com, port: 60024, type: trojan, password: b18d4174-5d38-4f38-8740-3a68c3fc01c6, sni: hk5.networkspeed.info, skip-cert-verify: true, udp: true}
+  - {name: "🇯🇵 [BosLife] 日本-01", server: ja00paa1.hand992.com, port: 60053, type: trojan, password: b18d4174-5d38-4f38-8740-3a68c3fc01c6, sni: jp1.networkspeed.info, skip-cert-verify: true, udp: true}
+  - {name: "🇯🇵 [BosLife] 日本-02", server: ja00paa2.hand992.com, port: 60054, type: trojan, password: b18d4174-5d38-4f38-8740-3a68c3fc01c6, sni: jp1.networkspeed.info, skip-cert-verify: true, udp: true}
+  - {name: "🇯🇵 [BosLife] 日本-03", server: ja00paa3.hand992.com, port: 60055, type: trojan, password: b18d4174-5d38-4f38-8740-3a68c3fc01c6, sni: jp1.networkspeed.info, skip-cert-verify: true, udp: true}
+  - {name: "🇯🇵 [BosLife] 日本-04", server: ja00paa4.hand992.com, port: 60056, type: trojan, password: b18d4174-5d38-4f38-8740-3a68c3fc01c6, sni: jp2.networkspeed.info, skip-cert-verify: true, udp: true}
+  - {name: "🇯🇵 [BosLife] 日本-05", server: ja00paa5.hand992.com, port: 60057, type: trojan, password: b18d4174-5d38-4f38-8740-3a68c3fc01c6, sni: jp1.networkspeed.info, skip-cert-verify: true, udp: true}
+  - {name: "🇯🇵 [BosLife] 日本-06", server: ja00paa6.hand992.com, port: 60058, type: trojan, password: b18d4174-5d38-4f38-8740-3a68c3fc01c6, sni: jp2.networkspeed.info, skip-cert-verify: true, udp: true}
+  - {name: "🇨🇳 [BosLife] 台湾-01", server: t00waa1.hand992.com, port: 60095, type: trojan, password: b18d4174-5d38-4f38-8740-3a68c3fc01c6, sni: tw1.networkspeed.info, skip-cert-verify: true, udp: true}
+  - {name: "🇨🇳 [BosLife] 台湾-02", server: t00waa2.hand992.com, port: 60096, type: trojan, password: b18d4174-5d38-4f38-8740-3a68c3fc01c6, sni: tw2.networkspeed.info, skip-cert-verify: true, udp: true}
+  - {name: "🇨🇳 [BosLife] 台湾-03", server: t00waa3.hand992.com, port: 60097, type: trojan, password: b18d4174-5d38-4f38-8740-3a68c3fc01c6, sni: tw1.networkspeed.info, skip-cert-verify: true, udp: true}
+  - {name: "🇨🇳 [BosLife] 台湾-04", server: t00waa4.hand992.com, port: 60098, type: trojan, password: b18d4174-5d38-4f38-8740-3a68c3fc01c6, sni: tw2.networkspeed.info, skip-cert-verify: true, udp: true}
+  - {name: "🇨🇳 [BosLife] 台湾-05", server: t00waa5.hand992.com, port: 60099, type: trojan, password: b18d4174-5d38-4f38-8740-3a68c3fc01c6, sni: tw1.networkspeed.info, skip-cert-verify: true, udp: true}
+  - {name: "🇨🇳 [BosLife] 台湾-06", server: t00waa6.hand992.com, port: 60100, type: trojan, password: b18d4174-5d38-4f38-8740-3a68c3fc01c6, sni: tw2.networkspeed.info, skip-cert-verify: true, udp: true}
+  - {name: "🇺🇸 [BosLife] 美国-01", server: u00sbb1.hand992.com, port: 60033, type: trojan, password: b18d4174-5d38-4f38-8740-3a68c3fc01c6, sni: us1.networkspeed.info, skip-cert-verify: true, udp: true}
+  - {name: "🇺🇸 [BosLife] 美国-02", server: u00sbb2.hand992.com, port: 60034, type: trojan, password: b18d4174-5d38-4f38-8740-3a68c3fc01c6, sni: us2.networkspeed.info, skip-cert-verify: true, udp: true}
+  - {name: "🇺🇸 [BosLife] 美国-03", server: u00sbb3.hand992.com, port: 60035, type: trojan, password: b18d4174-5d38-4f38-8740-3a68c3fc01c6, sni: us1.networkspeed.info, skip-cert-verify: true, udp: true}
+  - {name: "🇺🇸 [BosLife] 美国-04", server: u00sbb4.hand992.com, port: 60036, type: trojan, password: b18d4174-5d38-4f38-8740-3a68c3fc01c6, sni: us2.networkspeed.info, skip-cert-verify: true, udp: true}
+  - {name: "🇺🇸 [BosLife] 美国-05", server: u00sbb5.hand992.com, port: 60037, type: trojan, password: b18d4174-5d38-4f38-8740-3a68c3fc01c6, sni: us1.networkspeed.info, skip-cert-verify: true, udp: true}
+  - {name: "🇺🇸 [BosLife] 美国-06", server: u00sbb6.hand992.com, port: 60038, type: trojan, password: b18d4174-5d38-4f38-8740-3a68c3fc01c6, sni: us2.networkspeed.info, skip-cert-verify: true, udp: true}
+  - {name: "🇸🇬 [BosLife] 新加坡-01", server: sin00p1.hand992.com, port: 60075, type: trojan, password: b18d4174-5d38-4f38-8740-3a68c3fc01c6, sni: sgp1.networkspeed.info, skip-cert-verify: true, udp: true}
+  - {name: "🇸🇬 [BosLife] 新加坡-02", server: sin00p2.hand992.com, port: 60076, type: trojan, password: b18d4174-5d38-4f38-8740-3a68c3fc01c6, sni: sgp1.networkspeed.info, skip-cert-verify: true, udp: true}
+  - {name: "🇸🇬 [BosLife] 新加坡-03", server: sin00p3.hand992.com, port: 60077, type: trojan, password: b18d4174-5d38-4f38-8740-3a68c3fc01c6, sni: sgp1.networkspeed.info, skip-cert-verify: true, udp: true}
+  - {name: "🇸🇬 [BosLife] 新加坡-04", server: sin00p4.hand992.com, port: 60078, type: trojan, password: b18d4174-5d38-4f38-8740-3a68c3fc01c6, sni: sgp2.networkspeed.info, skip-cert-verify: true, udp: true}
+  - {name: "🇸🇬 [BosLife] 新加坡-05", server: sin00p5.hand992.com, port: 60079, type: trojan, password: b18d4174-5d38-4f38-8740-3a68c3fc01c6, sni: sgp1.networkspeed.info, skip-cert-verify: true, udp: true}
+  - {name: "🇸🇬 [BosLife] 新加坡-06", server: sin00p6.hand992.com, port: 60080, type: trojan, password: b18d4174-5d38-4f38-8740-3a68c3fc01c6, sni: sgp2.networkspeed.info, skip-cert-verify: true, udp: true}
+  - {name: "🇸🇬 [BosLife] 新加坡-07", server: sin00p7.hand992.com, port: 60140, type: trojan, password: b18d4174-5d38-4f38-8740-3a68c3fc01c6, sni: sgp3.networkspeed.info, skip-cert-verify: true, udp: true}
+  - {name: "🇸🇬 [BosLife] 新加坡-08", server: sin00p8.hand992.com, port: 60141, type: trojan, password: b18d4174-5d38-4f38-8740-3a68c3fc01c6, sni: sgp3.networkspeed.info, skip-cert-verify: true, udp: true}
+  - {name: "🇸🇬 [BosLife] 新加坡-09", server: sin00p9.hand992.com, port: 60142, type: trojan, password: b18d4174-5d38-4f38-8740-3a68c3fc01c6, sni: sgp3.networkspeed.info, skip-cert-verify: true, udp: true}
+  - {name: "🇰🇷 [BosLife] 韩国-01", server: k00raa1.hand992.com, port: 60101, type: trojan, password: b18d4174-5d38-4f38-8740-3a68c3fc01c6, sni: kr1.networkspeed.info, skip-cert-verify: true, udp: true}
+  - {name: "🇰🇷 [BosLife] 韩国-02", server: k00raa2.hand992.com, port: 60102, type: trojan, password: b18d4174-5d38-4f38-8740-3a68c3fc01c6, sni: kr1.networkspeed.info, skip-cert-verify: true, udp: true}
+  - {name: "🇰🇷 [BosLife] 韩国-03", server: k00raa3.hand992.com, port: 60103, type: trojan, password: b18d4174-5d38-4f38-8740-3a68c3fc01c6, sni: kr1.networkspeed.info, skip-cert-verify: true, udp: true}
+  - {name: "🇫🇷 [BosLife] 法国-01", server: frpar1.hand992.com, port: 60138, type: trojan, password: b18d4174-5d38-4f38-8740-3a68c3fc01c6, sni: fr1.networkspeed.info, skip-cert-verify: true, udp: true}
+  - {name: "🇫🇷 [BosLife] 法国-02", server: frpar2.hand992.com, port: 60139, type: trojan, password: b18d4174-5d38-4f38-8740-3a68c3fc01c6, sni: fr1.networkspeed.info, skip-cert-verify: true, udp: true}
+  - {name: "🇬🇧 [BosLife] 英国-01", server: u00kdm1.hand992.com, port: 60082, type: trojan, password: b18d4174-5d38-4f38-8740-3a68c3fc01c6, sni: uk1.networkspeed.info, skip-cert-verify: true, udp: true}
+  - {name: "🇬🇧 [BosLife] 英国-03", server: u00kdm3.hand992.com, port: 60084, type: trojan, password: b18d4174-5d38-4f38-8740-3a68c3fc01c6, sni: uk1.networkspeed.info, skip-cert-verify: true, udp: true}
+  - {name: "🇦🇺 [BosLife] 澳洲-01", server: meau1.hand992.com, port: 60130, type: trojan, password: b18d4174-5d38-4f38-8740-3a68c3fc01c6, sni: me1.networkspeed.info, skip-cert-verify: true, udp: true}
+  - {name: "🇦🇺 [BosLife] 澳洲-02", server: meau2.hand992.com, port: 60131, type: trojan, password: b18d4174-5d38-4f38-8740-3a68c3fc01c6, sni: me1.networkspeed.info, skip-cert-verify: true, udp: true}
+  - {name: "🇹🇷 [BosLife] 土耳其-01", server: turcc1.hand992.com, port: 60090, type: trojan, password: b18d4174-5d38-4f38-8740-3a68c3fc01c6, sni: tr1.networkspeed.info, skip-cert-verify: true, udp: true}
+  - {name: "🇬🇧 [BosLife] 英国-02", server: u00kdm2.hand992.com, port: 60083, type: trojan, password: b18d4174-5d38-4f38-8740-3a68c3fc01c6, sni: uk1.networkspeed.info, skip-cert-verify: true, udp: true}
+  - {name: "🇨🇦 [BosLife] 加拿大-02", server: ca00nbb2.hand992.com, port: 60122, type: trojan, password: b18d4174-5d38-4f38-8740-3a68c3fc01c6, sni: ca1.networkspeed.info, skip-cert-verify: true, udp: true}
+  - {name: "🇨🇦 [BosLife] 加拿大-01", server: ca00nbb1.hand992.com, port: 60121, type: trojan, password: b18d4174-5d38-4f38-8740-3a68c3fc01c6, sni: ca1.networkspeed.info, skip-cert-verify: true, udp: true}
+  - {name: "🇮🇳 [BosLife] 印度-01", server: argt1.hand992.com, port: 60135, type: trojan, password: b18d4174-5d38-4f38-8740-3a68c3fc01c6, sni: arg1.networkspeed.info, skip-cert-verify: true, udp: true}
+
