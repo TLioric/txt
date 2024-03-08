@@ -133,4 +133,48 @@ proxies:
   - {name: "🇮🇳 [BosLife] 印度-01", server: argt1.hand992.com, port: 60135, type: trojan, password: 41c50342-8b0f-47f3-8094-c6f373d96877, sni: arg1.networkspeed.info, skip-cert-verify: true, udp: true}
   - {name: "🇩🇪 [BosLife] 德国-01", server: defrak0.hand992.com, port: 60125, type: trojan, password: 41c50342-8b0f-47f3-8094-c6f373d96877, sni: def.networkspeed.info, skip-cert-verify: true, udp: true}
   - {name: "🇩🇪 [BosLife] 德国-02", server: defrak1.hand992.com, port: 60126, type: trojan, password: 41c50342-8b0f-47f3-8094-c6f373d96877, sni: def.networkspeed.info, skip-cert-verify: true, udp: true}
+    - { name: '剩余流量：193.99 GB', type: ss, server: mdz.ovogood.xyz, port: 40015, cipher: aes-256-gcm, password: 111354fc-2ec0-4264-afa0-2d994fca5e00, udp: true }
+    - { name: 套餐到期：长期有效, type: ss, server: mdz.ovogood.xyz, port: 40015, cipher: aes-256-gcm, password: 111354fc-2ec0-4264-afa0-2d994fca5e00, udp: true }
+    - { name: '香港 ❀原生❀大豆豆❀1倍', type: ss, server: mdz.ovogood.xyz, port: 40015, cipher: aes-256-gcm, password: 111354fc-2ec0-4264-afa0-2d994fca5e00, udp: true }
+    - { name: '香港 ❀原生❀小豆豆❀1倍', type: ss, server: mdz.ovogood.xyz, port: 40015, cipher: aes-256-gcm, password: 111354fc-2ec0-4264-afa0-2d994fca5e00, udp: true }
+    - { name: '日本 ❀大豆豆❀1倍', type: ss, server: mdz.ovogood.xyz, port: 40016, cipher: aes-256-gcm, password: 111354fc-2ec0-4264-afa0-2d994fca5e00, udp: true }
+    - { name: '日本 ❀小豆豆❀1倍', type: ss, server: mdz.ovogood.xyz, port: 40016, cipher: aes-256-gcm, password: 111354fc-2ec0-4264-afa0-2d994fca5e00, udp: true }
+    - { name: '新加坡 ❀大豆豆❀1倍', type: ss, server: mdz.ovogood.xyz, port: 40017, cipher: aes-256-gcm, password: 111354fc-2ec0-4264-afa0-2d994fca5e00, udp: true }
+    - { name: '新加坡 ❀小豆豆❀1倍', type: ss, server: mdz.ovogood.xyz, port: 40017, cipher: aes-256-gcm, password: 111354fc-2ec0-4264-afa0-2d994fca5e00, udp: true }
+    - { name: '印尼 ❀大豆豆❀1倍', type: ss, server: mdz.ovogood.xyz, port: 40018, cipher: aes-256-gcm, password: 111354fc-2ec0-4264-afa0-2d994fca5e00, udp: true }
+    - { name: '印尼 ❀小豆豆❀1倍', type: ss, server: mdz.ovogood.xyz, port: 40018, cipher: aes-256-gcm, password: 111354fc-2ec0-4264-afa0-2d994fca5e00, udp: true }
+    - { name: '马来西亚 ❀原生❀大豆豆❀1倍', type: ss, server: mdz.ovogood.xyz, port: 40019, cipher: aes-256-gcm, password: 111354fc-2ec0-4264-afa0-2d994fca5e00, udp: true }
+    - { name: '马来西亚 ❀原生❀小豆豆❀1倍', type: ss, server: mdz.ovogood.xyz, port: 40019, cipher: aes-256-gcm, password: 111354fc-2ec0-4264-afa0-2d994fca5e00, udp: true }
+    - { name: '越南 ❀原生❀大豆豆❀1倍', type: ss, server: mdz.ovogood.xyz, port: 40020, cipher: aes-256-gcm, password: 111354fc-2ec0-4264-afa0-2d994fca5e00, udp: true }
+    - { name: '越南 ❀原生❀小豆豆❀1倍', type: ss, server: mdz.ovogood.xyz, port: 40020, cipher: aes-256-gcm, password: 111354fc-2ec0-4264-afa0-2d994fca5e00, udp: true }
+    - { name: '印度 ❀小豆豆❀1倍', type: ss, server: mdz.ovogood.xyz, port: 40021, cipher: aes-256-gcm, password: 111354fc-2ec0-4264-afa0-2d994fca5e00, udp: true }
+    - { name: '印度 ❀大豆豆❀1倍', type: ss, server: mdz.ovogood.xyz, port: 40021, cipher: aes-256-gcm, password: 111354fc-2ec0-4264-afa0-2d994fca5e00, udp: true }
+    - { name: '澳大利亚 ❀大豆豆❀1倍', type: ss, server: mdz.ovogood.xyz, port: 40022, cipher: aes-256-gcm, password: 111354fc-2ec0-4264-afa0-2d994fca5e00, udp: true }
+    - { name: '澳大利亚 ❀小豆豆❀1倍', type: ss, server: mdz.ovogood.xyz, port: 40022, cipher: aes-256-gcm, password: 111354fc-2ec0-4264-afa0-2d994fca5e00, udp: true }
+    - { name: '美国 ❀原生❀大豆豆❀1倍', type: ss, server: mdz.ovogood.xyz, port: 40023, cipher: aes-256-gcm, password: 111354fc-2ec0-4264-afa0-2d994fca5e00, udp: true }
+    - { name: '美国 ❀原生❀小豆豆❀1倍', type: ss, server: mdz.ovogood.xyz, port: 40023, cipher: aes-256-gcm, password: 111354fc-2ec0-4264-afa0-2d994fca5e00, udp: true }
+    - { name: '德国 ❀GPT❀大豆豆❀1倍', type: ss, server: mdz.ovogood.xyz, port: 40024, cipher: aes-256-gcm, password: 111354fc-2ec0-4264-afa0-2d994fca5e00, udp: true }
+    - { name: '德国 ❀GPT❀小豆豆❀1倍', type: ss, server: mdz.ovogood.xyz, port: 40024, cipher: aes-256-gcm, password: 111354fc-2ec0-4264-afa0-2d994fca5e00, udp: true }
+   - { name: '剩余流量：567.85 GB', type: ss, server: mdz.ovogood.xyz, port: 40015, cipher: aes-256-gcm, password: dd04290b-8f38-459d-b9e2-966a697e9a5d, udp: true }
+    - { name: 套餐到期：长期有效, type: ss, server: mdz.ovogood.xyz, port: 40015, cipher: aes-256-gcm, password: dd04290b-8f38-459d-b9e2-966a697e9a5d, udp: true }
+    - { name: '香港 ❀原生❀大豆豆❀1倍', type: ss, server: mdz.ovogood.xyz, port: 40015, cipher: aes-256-gcm, password: dd04290b-8f38-459d-b9e2-966a697e9a5d, udp: true }
+    - { name: '香港 ❀原生❀小豆豆❀1倍', type: ss, server: mdz.ovogood.xyz, port: 40015, cipher: aes-256-gcm, password: dd04290b-8f38-459d-b9e2-966a697e9a5d, udp: true }
+    - { name: '日本 ❀大豆豆❀1倍', type: ss, server: mdz.ovogood.xyz, port: 40016, cipher: aes-256-gcm, password: dd04290b-8f38-459d-b9e2-966a697e9a5d, udp: true }
+    - { name: '日本 ❀小豆豆❀1倍', type: ss, server: mdz.ovogood.xyz, port: 40016, cipher: aes-256-gcm, password: dd04290b-8f38-459d-b9e2-966a697e9a5d, udp: true }
+    - { name: '新加坡 ❀大豆豆❀1倍', type: ss, server: mdz.ovogood.xyz, port: 40017, cipher: aes-256-gcm, password: dd04290b-8f38-459d-b9e2-966a697e9a5d, udp: true }
+    - { name: '新加坡 ❀小豆豆❀1倍', type: ss, server: mdz.ovogood.xyz, port: 40017, cipher: aes-256-gcm, password: dd04290b-8f38-459d-b9e2-966a697e9a5d, udp: true }
+    - { name: '印尼 ❀大豆豆❀1倍', type: ss, server: mdz.ovogood.xyz, port: 40018, cipher: aes-256-gcm, password: dd04290b-8f38-459d-b9e2-966a697e9a5d, udp: true }
+    - { name: '印尼 ❀小豆豆❀1倍', type: ss, server: mdz.ovogood.xyz, port: 40018, cipher: aes-256-gcm, password: dd04290b-8f38-459d-b9e2-966a697e9a5d, udp: true }
+    - { name: '马来西亚 ❀原生❀大豆豆❀1倍', type: ss, server: mdz.ovogood.xyz, port: 40019, cipher: aes-256-gcm, password: dd04290b-8f38-459d-b9e2-966a697e9a5d, udp: true }
+    - { name: '马来西亚 ❀原生❀小豆豆❀1倍', type: ss, server: mdz.ovogood.xyz, port: 40019, cipher: aes-256-gcm, password: dd04290b-8f38-459d-b9e2-966a697e9a5d, udp: true }
+    - { name: '越南 ❀原生❀大豆豆❀1倍', type: ss, server: mdz.ovogood.xyz, port: 40020, cipher: aes-256-gcm, password: dd04290b-8f38-459d-b9e2-966a697e9a5d, udp: true }
+    - { name: '越南 ❀原生❀小豆豆❀1倍', type: ss, server: mdz.ovogood.xyz, port: 40020, cipher: aes-256-gcm, password: dd04290b-8f38-459d-b9e2-966a697e9a5d, udp: true }
+    - { name: '印度 ❀小豆豆❀1倍', type: ss, server: mdz.ovogood.xyz, port: 40021, cipher: aes-256-gcm, password: dd04290b-8f38-459d-b9e2-966a697e9a5d, udp: true }
+    - { name: '印度 ❀大豆豆❀1倍', type: ss, server: mdz.ovogood.xyz, port: 40021, cipher: aes-256-gcm, password: dd04290b-8f38-459d-b9e2-966a697e9a5d, udp: true }
+    - { name: '澳大利亚 ❀大豆豆❀1倍', type: ss, server: mdz.ovogood.xyz, port: 40022, cipher: aes-256-gcm, password: dd04290b-8f38-459d-b9e2-966a697e9a5d, udp: true }
+    - { name: '澳大利亚 ❀小豆豆❀1倍', type: ss, server: mdz.ovogood.xyz, port: 40022, cipher: aes-256-gcm, password: dd04290b-8f38-459d-b9e2-966a697e9a5d, udp: true }
+    - { name: '美国 ❀原生❀大豆豆❀1倍', type: ss, server: mdz.ovogood.xyz, port: 40023, cipher: aes-256-gcm, password: dd04290b-8f38-459d-b9e2-966a697e9a5d, udp: true }
+    - { name: '美国 ❀原生❀小豆豆❀1倍', type: ss, server: mdz.ovogood.xyz, port: 40023, cipher: aes-256-gcm, password: dd04290b-8f38-459d-b9e2-966a697e9a5d, udp: true }
+    - { name: '德国 ❀GPT❀大豆豆❀1倍', type: ss, server: mdz.ovogood.xyz, port: 40024, cipher: aes-256-gcm, password: dd04290b-8f38-459d-b9e2-966a697e9a5d, udp: true }
+    - { name: '德国 ❀GPT❀小豆豆❀1倍', type: ss, server: mdz.ovogood.xyz, port: 40024, cipher: aes-256-gcm, password: dd04290b-8f38-459d-b9e2-966a697e9a5d, udp: true }
 
