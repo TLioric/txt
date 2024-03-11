@@ -1,3 +1,13 @@
+dns:
+    enable: true
+    ipv6: false
+    default-nameserver: [223.5.5.5, 119.29.29.29]
+    enhanced-mode: fake-ip
+    fake-ip-range: 198.18.0.1/16
+    use-hosts: true
+    nameserver: ['https://doh.pub/dns-query', 'https://dns.alidns.com/dns-query']
+    fallback: ['https://doh.dns.sb/dns-query', 'https://dns.cloudflare.com/dns-query', 'https://dns.twnic.tw/dns-query', 'tls://8.8.4.4:853']
+    fallback-filter: { geoip: true, ipcidr: [240.0.0.0/4, 0.0.0.0/32] }
 proxies:
  - { name: '苏苏：剩余流量：9999TB', type: ss, server: v2-sh-hk.as9929.uk, port: 10061, cipher: aes-128-gcm, password: 8804e338-5797-4a51-884b-b8bec1f1bedd, udp: true }
     - { name: '苏苏：到期时间：2099-01-01', type: ss, server: v2-sh-hk.as9929.uk, port: 10061, cipher: aes-128-gcm, password: 8804e338-5797-4a51-884b-b8bec1f1bedd, udp: true }
