@@ -15,7 +15,7 @@ dns:
     fallback: ['https://doh.dns.sb/dns-query', 'https://dns.cloudflare.com/dns-query', 'https://dns.twnic.tw/dns-query', 'tls://8.8.4.4:853']
     fallback-filter: { geoip: true, ipcidr: [240.0.0.0/4, 0.0.0.0/32] }
 proxies:
-- {name: "🇭🇰 [BosLife] 香港-01", server: h00kgaa1.hand992.com, port: 60010, type: trojan, password: b18d4174-5d38-4f38-8740-3a68c3fc01c6, sni: hk4.networkspeed.info, skip-cert-verify: true, udp: true}
+- { name: "🇭🇰 [BosLife] 香港-01", server: h00kgaa1.hand992.com, port: 60010, type: trojan, password: b18d4174-5d38-4f38-8740-3a68c3fc01c6, sni: hk4.networkspeed.info, skip-cert-verify: true, udp: true}
  - { name: '苏苏：剩余流量：9999TB', type: ss, server: v2-sh-hk.as9929.uk, port: 10061, cipher: aes-128-gcm, password: 8804e338-5797-4a51-884b-b8bec1f1bedd, udp: true }
     - { name: '苏苏：到期时间：2099-01-01', type: ss, server: v2-sh-hk.as9929.uk, port: 10061, cipher: aes-128-gcm, password: 8804e338-5797-4a51-884b-b8bec1f1bedd, udp: true }
     - { name: '🇭🇰 香港01', type: ss, server: v2-sh-hk.as9929.uk, port: 10061, cipher: aes-128-gcm, password: 8804e338-5797-4a51-884b-b8bec1f1bedd, udp: true }
