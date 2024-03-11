@@ -1,77 +1,357 @@
-ixed-port: 7890
-allow-lan: true
-bind-address: '*'
-mode: rule
-log-level: info
-external-controller: '127.0.0.1:9090'
-dns:
-    enable: true
-    ipv6: false
-    default-nameserver: [223.5.5.5, 119.29.29.29]
-    enhanced-mode: fake-ip
-    fake-ip-range: 198.18.0.1/16
-    use-hosts: true
-    nameserver: ['https://doh.pub/dns-query', 'https://dns.alidns.com/dns-query']
-    fallback: ['https://doh.dns.sb/dns-query', 'https://dns.cloudflare.com/dns-query', 'https://dns.twnic.tw/dns-query', 'tls://8.8.4.4:853']
-    fallback-filter: { geoip: true, ipcidr: [240.0.0.0/4, 0.0.0.0/32] }
-proxies:
-- { name: "🇭🇰 [BosLife] 香港-01", server: h00kgaa1.hand992.com, port: 60010, type: trojan, password: b18d4174-5d38-4f38-8740-3a68c3fc01c6, sni: hk4.networkspeed.info, skip-cert-verify: true, udp: true}
- - { name: '苏苏：剩余流量：9999TB', type: ss, server: v2-sh-hk.as9929.uk, port: 10061, cipher: aes-128-gcm, password: 8804e338-5797-4a51-884b-b8bec1f1bedd, udp: true }
-    - { name: '苏苏：到期时间：2099-01-01', type: ss, server: v2-sh-hk.as9929.uk, port: 10061, cipher: aes-128-gcm, password: 8804e338-5797-4a51-884b-b8bec1f1bedd, udp: true }
-    - { name: '🇭🇰 香港01', type: ss, server: v2-sh-hk.as9929.uk, port: 10061, cipher: aes-128-gcm, password: 8804e338-5797-4a51-884b-b8bec1f1bedd, udp: true }
-    - { name: '🇭🇰 香港02', type: ss, server: v2-sh-hk.as9929.uk, port: 34936, cipher: aes-128-gcm, password: 8804e338-5797-4a51-884b-b8bec1f1bedd, udp: true }
-    - { name: '🇭🇰 香港03', type: ss, server: v2-gz-hk.as9929.uk, port: 51694, cipher: aes-128-gcm, password: 8804e338-5797-4a51-884b-b8bec1f1bedd, udp: true }
-    - { name: '🇭🇰 香港04', type: ss, server: v2-gz-hk.as9929.uk, port: 19181, cipher: aes-128-gcm, password: 8804e338-5797-4a51-884b-b8bec1f1bedd, udp: true }
-    - { name: '🇭🇰 香港05', type: ss, server: v2-jsbgp.as9929.uk, port: 18035, cipher: aes-128-gcm, password: 8804e338-5797-4a51-884b-b8bec1f1bedd, udp: true }
-    - { name: '🇭🇰 香港06', type: ss, server: v2-jsbgp.as9929.uk, port: 28615, cipher: aes-128-gcm, password: 8804e338-5797-4a51-884b-b8bec1f1bedd, udp: true }
-    - { name: '🇭🇰 香港07', type: ss, server: v2-gz-hk.as9929.uk, port: 38170, cipher: aes-128-gcm, password: 8804e338-5797-4a51-884b-b8bec1f1bedd, udp: true }
-    - { name: '🇭🇰 香港08', type: ss, server: v2-gz-hk.as9929.uk, port: 51018, cipher: aes-128-gcm, password: 8804e338-5797-4a51-884b-b8bec1f1bedd, udp: true }
-    - { name: '🇭🇰 香港09', type: ss, server: sziplc.as9929.uk, port: 40512, cipher: aes-128-gcm, password: 8804e338-5797-4a51-884b-b8bec1f1bedd, udp: true }
-    - { name: '🇭🇰 香港10', type: ss, server: sziplc.as9929.uk, port: 34262, cipher: aes-128-gcm, password: 8804e338-5797-4a51-884b-b8bec1f1bedd, udp: true }
-    - { name: '🇯🇵 日本01', type: ss, server: v2-sh-jp.as9929.uk, port: 33861, cipher: aes-128-gcm, password: 8804e338-5797-4a51-884b-b8bec1f1bedd, udp: true }
-    - { name: '🇯🇵 日本02', type: ss, server: v2-sh-jp.as9929.uk, port: 53495, cipher: aes-128-gcm, password: 8804e338-5797-4a51-884b-b8bec1f1bedd, udp: true }
-    - { name: '🇯🇵 日本03', type: ss, server: v2-sh-jp.as9929.uk, port: 10290, cipher: aes-128-gcm, password: 8804e338-5797-4a51-884b-b8bec1f1bedd, udp: true }
-    - { name: '🇯🇵 日本04', type: ss, server: v2-sh-jp.as9929.uk, port: 20879, cipher: aes-128-gcm, password: 8804e338-5797-4a51-884b-b8bec1f1bedd, udp: true }
-    - { name: '🇯🇵 日本05', type: ss, server: v2-sh-jp.as9929.uk, port: 43329, cipher: aes-128-gcm, password: 8804e338-5797-4a51-884b-b8bec1f1bedd, udp: true }
-    - { name: '🇯🇵 日本06', type: ss, server: v2-sh-jp.as9929.uk, port: 38078, cipher: aes-128-gcm, password: 8804e338-5797-4a51-884b-b8bec1f1bedd, udp: true }
-    - { name: '🇯🇵 日本07', type: ss, server: v2-sh-jp.as9929.uk, port: 45798, cipher: aes-128-gcm, password: 8804e338-5797-4a51-884b-b8bec1f1bedd, udp: true }
-    - { name: '🇯🇵 日本08', type: ss, server: v2-sh-jp.as9929.uk, port: 34143, cipher: aes-128-gcm, password: 8804e338-5797-4a51-884b-b8bec1f1bedd, udp: true }
-    - { name: '🇨🇳 台湾01', type: ss, server: v2-sh-tw.as9929.uk, port: 14825, cipher: aes-128-gcm, password: 8804e338-5797-4a51-884b-b8bec1f1bedd, udp: true }
-    - { name: '🇨🇳 台湾02', type: ss, server: v2-gz-tw.as9929.uk, port: 16592, cipher: aes-128-gcm, password: 8804e338-5797-4a51-884b-b8bec1f1bedd, udp: true }
-    - { name: '🇨🇳 台湾03', type: ss, server: v2-sh-tw.as9929.uk, port: 31020, cipher: aes-128-gcm, password: 8804e338-5797-4a51-884b-b8bec1f1bedd, udp: true }
-    - { name: '🇨🇳 台湾04', type: ss, server: v2-gz-tw.as9929.uk, port: 49393, cipher: aes-128-gcm, password: 8804e338-5797-4a51-884b-b8bec1f1bedd, udp: true }
-    - { name: '🇸🇬 新加坡01', type: ss, server: v2-gz-sg.as9929.uk, port: 29978, cipher: aes-128-gcm, password: 8804e338-5797-4a51-884b-b8bec1f1bedd, udp: true }
-    - { name: '🇸🇬 新加坡02', type: ss, server: v2-gz-sg.as9929.uk, port: 22466, cipher: aes-128-gcm, password: 8804e338-5797-4a51-884b-b8bec1f1bedd, udp: true }
-    - { name: '🇸🇬 新加坡03', type: ss, server: v2-gz-sg.as9929.uk, port: 34556, cipher: aes-128-gcm, password: 8804e338-5797-4a51-884b-b8bec1f1bedd, udp: true }
-    - { name: '🇸🇬 新加坡04', type: ss, server: v2-gz-sg.as9929.uk, port: 15885, cipher: aes-128-gcm, password: 8804e338-5797-4a51-884b-b8bec1f1bedd, udp: true }
-    - { name: '🇸🇬 新加坡05', type: ss, server: v2-gz-sg.as9929.uk, port: 31107, cipher: aes-128-gcm, password: 8804e338-5797-4a51-884b-b8bec1f1bedd, udp: true }
-    - { name: '🇸🇬 新加坡06', type: ss, server: v2-gz-sg.as9929.uk, port: 32910, cipher: aes-128-gcm, password: 8804e338-5797-4a51-884b-b8bec1f1bedd, udp: true }
-    - { name: '🇺🇸 美国01', type: ss, server: v2-sh-us.as9929.uk, port: 19387, cipher: aes-128-gcm, password: 8804e338-5797-4a51-884b-b8bec1f1bedd, udp: true }
-    - { name: '🇺🇸 美国02', type: ss, server: v2-sh-us.as9929.uk, port: 29483, cipher: aes-128-gcm, password: 8804e338-5797-4a51-884b-b8bec1f1bedd, udp: true }
-    - { name: '🇺🇸 美国03', type: ss, server: v2-sh-us.as9929.uk, port: 35962, cipher: aes-128-gcm, password: 8804e338-5797-4a51-884b-b8bec1f1bedd, udp: true }
-    - { name: '🇺🇸 美国04', type: ss, server: v2-sh-us.as9929.uk, port: 44926, cipher: aes-128-gcm, password: 8804e338-5797-4a51-884b-b8bec1f1bedd, udp: true }
-    - { name: '🇺🇸 美国05', type: ss, server: v2-sh-us.as9929.uk, port: 18599, cipher: aes-128-gcm, password: 8804e338-5797-4a51-884b-b8bec1f1bedd, udp: true }
-    - { name: '🇺🇸 美国06', type: ss, server: v2-sh-us.as9929.uk, port: 34260, cipher: aes-128-gcm, password: 8804e338-5797-4a51-884b-b8bec1f1bedd, udp: true }
-    - { name: '🇺🇸 美国07', type: ss, server: v2-sh-us.as9929.uk, port: 22679, cipher: aes-128-gcm, password: 8804e338-5797-4a51-884b-b8bec1f1bedd, udp: true }
-    - { name: '🇺🇸 美国08', type: ss, server: v2-sh-us.as9929.uk, port: 40464, cipher: aes-128-gcm, password: 8804e338-5797-4a51-884b-b8bec1f1bedd, udp: true }
-    - { name: '🇺🇸 美国09', type: ss, server: v2-sh-us.as9929.uk, port: 14052, cipher: aes-128-gcm, password: 8804e338-5797-4a51-884b-b8bec1f1bedd, udp: true }
-    - { name: '🇺🇸 美国10', type: ss, server: v2-sh-us.as9929.uk, port: 48578, cipher: aes-128-gcm, password: 8804e338-5797-4a51-884b-b8bec1f1bedd, udp: true }
-    - { name: '🇩🇪 德国', type: ss, server: bj-de.as9929.uk, port: 49301, cipher: aes-128-gcm, password: 8804e338-5797-4a51-884b-b8bec1f1bedd, udp: true }
-    - { name: '🇬🇧 英国', type: ss, server: bj-de.as9929.uk, port: 28790, cipher: aes-128-gcm, password: 8804e338-5797-4a51-884b-b8bec1f1bedd, udp: true }
-    - { name: '🇰🇷 韩国', type: ss, server: v2-jsbgp.as9929.uk, port: 16098, cipher: aes-128-gcm, password: 8804e338-5797-4a51-884b-b8bec1f1bedd, udp: true }
-    - { name: '🇳🇱 荷兰01', type: ss, server: bj-de.as9929.uk, port: 43417, cipher: chacha20-ietf-poly1305, password: 8804e338-5797-4a51-884b-b8bec1f1bedd, udp: true }
-    - { name: '🇳🇱 荷兰02', type: ss, server: bj-de.as9929.uk, port: 59018, cipher: chacha20-ietf-poly1305, password: 8804e338-5797-4a51-884b-b8bec1f1bedd, udp: true }
-    - { name: '🇹🇷 土耳其01', type: ss, server: bj-de.as9929.uk, port: 31759, cipher: aes-128-gcm, password: 8804e338-5797-4a51-884b-b8bec1f1bedd, udp: true }
-    - { name: '🇹🇷 土耳其02', type: ss, server: bj-de.as9929.uk, port: 35051, cipher: aes-128-gcm, password: 8804e338-5797-4a51-884b-b8bec1f1bedd, udp: true }
-    - { name: '🇮🇳 印度', type: ss, server: v2-jsbgp.as9929.uk, port: 16054, cipher: aes-128-gcm, password: 8804e338-5797-4a51-884b-b8bec1f1bedd, udp: true }
-    - { name: '🇨🇦 加拿大', type: ss, server: v2-jsbgp.as9929.uk, port: 55775, cipher: chacha20-ietf-poly1305, password: 8804e338-5797-4a51-884b-b8bec1f1bedd, udp: true }
-    - { name: '🇮🇩 印尼', type: ss, server: v2-jsbgp.as9929.uk, port: 19941, cipher: aes-128-gcm, password: 8804e338-5797-4a51-884b-b8bec1f1bedd, udp: true }
-    - { name: '🇦🇷 阿根廷', type: ss, server: v2-jsbgp.as9929.uk, port: 14015, cipher: aes-128-gcm, password: 8804e338-5797-4a51-884b-b8bec1f1bedd, udp: true }
-    - { name: '🇻🇳 越南', type: ss, server: v2-jsbgp.as9929.uk, port: 41327, cipher: aes-128-gcm, password: 8804e338-5797-4a51-884b-b8bec1f1bedd, udp: true }
-    - { name: '🇲🇾 马来西亚', type: ss, server: v2-jsbgp.as9929.uk, port: 25733, cipher: chacha20-ietf-poly1305, password: 8804e338-5797-4a51-884b-b8bec1f1bedd, udp: true }
-    - { name: '🇵🇭 菲律宾', type: ss, server: v2-jsbgp.as9929.uk, port: 39813, cipher: aes-128-gcm, password: 8804e338-5797-4a51-884b-b8bec1f1bedd, udp: true }
-    - { name: '🇺🇦 乌克兰', type: ss, server: bj-de.as9929.uk, port: 32044, cipher: aes-128-gcm, password: 8804e338-5797-4a51-884b-b8bec1f1bedd, udp: true }
-    - { name: '🇳🇬 尼日利亚', type: ss, server: bj-de.as9929.uk, port: 42661, cipher: aes-128-gcm, password: 8804e338-5797-4a51-884b-b8bec1f1bedd, udp: true }
-    - { name: '🇦🇪 阿拉伯', type: ss, server: v2-jsbgp.as9929.uk, port: 27955, cipher: aes-128-gcm, password: 8804e338-5797-4a51-884b-b8bec1f1bedd, udp: true }
-    - { name: '🇪🇸 西班牙', type: ss, server: bj-de.as9929.uk, port: 55626, cipher: aes-128-gcm, password: 8804e338-5797-4a51-884b-b8bec1f1bedd, udp: true }
-    - { name: '🇵🇰 巴基斯坦', type: ss, server: v2-jsbgp.as9929.uk, port: 18075, cipher: aes-128-gcm, password: 8804e338-5797-4a51-884b-b8bec1f1bedd, udp: true }
+ - name: '苏苏：剩余流量：9999TB'
+   type: ss
+   server: v2-sh-hk.as9929.uk
+   port: 10061
+   cipher: aes-128-gcm
+   password: "8804e338-5797-4a51-884b-b8bec1f1bedd"
+   udp: true
+ - name: '苏苏：到期时间：2099-01-01'
+   type: ss
+   server: v2-sh-hk.as9929.uk
+   port: 10061
+   cipher: aes-128-gcm
+   password: "8804e338-5797-4a51-884b-b8bec1f1bedd"
+   udp: true
+ - name: '🇭🇰 香港01'
+   type: ss
+   server: v2-sh-hk.as9929.uk
+   port: 10061
+   cipher: aes-128-gcm
+   password: "8804e338-5797-4a51-884b-b8bec1f1bedd"
+   udp: true
+ - name: '🇭🇰 香港02'
+   type: ss
+   server: v2-sh-hk.as9929.uk, port: 34936,
+   cipher: aes-128-gcm
+   password: "8804e338-5797-4a51-884b-b8bec1f1bedd"
+   udp: true
+ - name: '🇭🇰 香港03'
+   type: ss
+   server: v2-gz-hk.as9929.uk, port: 51694,
+   cipher: aes-128-gcm
+   password: "8804e338-5797-4a51-884b-b8bec1f1bedd"
+   udp: true
+ - name: '🇭🇰 香港04'
+   type: ss
+   server: v2-gz-hk.as9929.uk, port: 19181,
+   cipher: aes-128-gcm
+   password: "8804e338-5797-4a51-884b-b8bec1f1bedd"
+   udp: true
+ - name: '🇭🇰 香港05'
+   type: ss
+   server: v2-jsbgp.as9929.uk, port: 18035,
+   cipher: aes-128-gcm
+   password: "8804e338-5797-4a51-884b-b8bec1f1bedd"
+   udp: true
+ - name: '🇭🇰 香港06'
+   type: ss
+   server: v2-jsbgp.as9929.uk, port: 28615,
+   cipher: aes-128-gcm
+   password: "8804e338-5797-4a51-884b-b8bec1f1bedd"
+   udp: true
+ - name: '🇭🇰 香港07'
+   type: ss
+   server: v2-gz-hk.as9929.uk, port: 38170,
+   cipher: aes-128-gcm
+   password: "8804e338-5797-4a51-884b-b8bec1f1bedd"
+   udp: true
+ - name: '🇭🇰 香港08'
+   type: ss
+   server: v2-gz-hk.as9929.uk, port: 51018,
+   cipher: aes-128-gcm
+   password: "8804e338-5797-4a51-884b-b8bec1f1bedd"
+   udp: true
+ - name: '🇭🇰 香港09'
+   type: ss
+   server: sziplc.as9929.uk, port: 40512,
+   cipher: aes-128-gcm
+   password: "8804e338-5797-4a51-884b-b8bec1f1bedd"
+   udp: true
+ - name: '🇭🇰 香港10'
+   type: ss
+   server: sziplc.as9929.uk, port: 34262,
+   cipher: aes-128-gcm
+   password: "8804e338-5797-4a51-884b-b8bec1f1bedd"
+   udp: true
+ - name: '🇯🇵 日本01'
+   type: ss
+   server: v2-sh-jp.as9929.uk, port: 33861,
+   cipher: aes-128-gcm
+   password: "8804e338-5797-4a51-884b-b8bec1f1bedd"
+   udp: true
+ - name: '🇯🇵 日本02'
+   type: ss
+   server: v2-sh-jp.as9929.uk, port: 53495,
+   cipher: aes-128-gcm
+   password: "8804e338-5797-4a51-884b-b8bec1f1bedd"
+   udp: true
+ - name: '🇯🇵 日本03'
+   type: ss
+   server: v2-sh-jp.as9929.uk, port: 10290,
+   cipher: aes-128-gcm
+   password: "8804e338-5797-4a51-884b-b8bec1f1bedd"
+   udp: true
+ - name: '🇯🇵 日本04'
+   type: ss
+   server: v2-sh-jp.as9929.uk, port: 20879,
+   cipher: aes-128-gcm
+   password: "8804e338-5797-4a51-884b-b8bec1f1bedd"
+   udp: true
+ - name: '🇯🇵 日本05'
+   type: ss
+   server: v2-sh-jp.as9929.uk, port: 43329,
+   cipher: aes-128-gcm
+   password: "8804e338-5797-4a51-884b-b8bec1f1bedd"
+   udp: true
+ - name: '🇯🇵 日本06'
+   type: ss
+   server: v2-sh-jp.as9929.uk, port: 38078,
+   cipher: aes-128-gcm
+   password: "8804e338-5797-4a51-884b-b8bec1f1bedd"
+   udp: true
+ - name: '🇯🇵 日本07'
+   type: ss
+   server: v2-sh-jp.as9929.uk, port: 45798,
+   cipher: aes-128-gcm
+   password: "8804e338-5797-4a51-884b-b8bec1f1bedd"
+   udp: true
+ - name: '🇯🇵 日本08'
+   type: ss
+   server: v2-sh-jp.as9929.uk, port: 34143,
+   cipher: aes-128-gcm
+   password: "8804e338-5797-4a51-884b-b8bec1f1bedd"
+   udp: true
+ - name: '🇨🇳 台湾01'
+   type: ss
+   server: v2-sh-tw.as9929.uk, port: 14825,
+   cipher: aes-128-gcm
+   password: "8804e338-5797-4a51-884b-b8bec1f1bedd"
+   udp: true
+ - name: '🇨🇳 台湾02'
+   type: ss
+   server: v2-gz-tw.as9929.uk, port: 16592,
+   cipher: aes-128-gcm
+   password: "8804e338-5797-4a51-884b-b8bec1f1bedd"
+   udp: true
+ - name: '🇨🇳 台湾03'
+   type: ss
+   server: v2-sh-tw.as9929.uk, port: 31020,
+   cipher: aes-128-gcm
+   password: "8804e338-5797-4a51-884b-b8bec1f1bedd"
+   udp: true
+ - name: '🇨🇳 台湾04'
+   type: ss
+   server: v2-gz-tw.as9929.uk, port: 49393,
+   cipher: aes-128-gcm
+   password: "8804e338-5797-4a51-884b-b8bec1f1bedd"
+   udp: true
+ - name: '🇸🇬 新加坡01'
+   type: ss
+   server: v2-gz-sg.as9929.uk, port: 29978,
+   cipher: aes-128-gcm
+   password: "8804e338-5797-4a51-884b-b8bec1f1bedd"
+   udp: true
+ - name: '🇸🇬 新加坡02'
+   type: ss
+   server: v2-gz-sg.as9929.uk, port: 22466,
+   cipher: aes-128-gcm
+   password: "8804e338-5797-4a51-884b-b8bec1f1bedd"
+   udp: true
+ - name: '🇸🇬 新加坡03'
+   type: ss
+   server: v2-gz-sg.as9929.uk, port: 34556,
+   cipher: aes-128-gcm
+   password: "8804e338-5797-4a51-884b-b8bec1f1bedd"
+   udp: true
+ - name: '🇸🇬 新加坡04'
+   type: ss
+   server: v2-gz-sg.as9929.uk, port: 15885,
+   cipher: aes-128-gcm
+   password: "8804e338-5797-4a51-884b-b8bec1f1bedd"
+   udp: true
+ - name: '🇸🇬 新加坡05'
+   type: ss
+   server: v2-gz-sg.as9929.uk, port: 31107,
+   cipher: aes-128-gcm
+   password: "8804e338-5797-4a51-884b-b8bec1f1bedd"
+   udp: true
+ - name: '🇸🇬 新加坡06'
+   type: ss
+   server: v2-gz-sg.as9929.uk, port: 32910,
+   cipher: aes-128-gcm
+   password: "8804e338-5797-4a51-884b-b8bec1f1bedd"
+   udp: true
+ - name: '🇺🇸 美国01'
+   type: ss
+   server: v2-sh-us.as9929.uk, port: 19387,
+   cipher: aes-128-gcm
+   password: "8804e338-5797-4a51-884b-b8bec1f1bedd"
+   udp: true
+ - name: '🇺🇸 美国02'
+   type: ss
+   server: v2-sh-us.as9929.uk, port: 29483,
+   cipher: aes-128-gcm
+   password: "8804e338-5797-4a51-884b-b8bec1f1bedd"
+   udp: true
+ - name: '🇺🇸 美国03'
+   type: ss
+   server: v2-sh-us.as9929.uk, port: 35962,
+   cipher: aes-128-gcm
+   password: "8804e338-5797-4a51-884b-b8bec1f1bedd"
+   udp: true
+ - name: '🇺🇸 美国04'
+   type: ss
+   server: v2-sh-us.as9929.uk, port: 44926,
+   cipher: aes-128-gcm
+   password: "8804e338-5797-4a51-884b-b8bec1f1bedd"
+   udp: true
+ - name: '🇺🇸 美国05'
+   type: ss
+   server: v2-sh-us.as9929.uk, port: 18599,
+   cipher: aes-128-gcm
+   password: "8804e338-5797-4a51-884b-b8bec1f1bedd"
+   udp: true
+ - name: '🇺🇸 美国06'
+   type: ss
+   server: v2-sh-us.as9929.uk, port: 34260,
+   cipher: aes-128-gcm
+   password: "8804e338-5797-4a51-884b-b8bec1f1bedd"
+   udp: true
+ - name: '🇺🇸 美国07'
+   type: ss
+   server: v2-sh-us.as9929.uk, port: 22679,
+   cipher: aes-128-gcm
+   password: "8804e338-5797-4a51-884b-b8bec1f1bedd"
+   udp: true
+ - name: '🇺🇸 美国08'
+   type: ss
+   server: v2-sh-us.as9929.uk, port: 40464,
+   cipher: aes-128-gcm
+   password: "8804e338-5797-4a51-884b-b8bec1f1bedd"
+   udp: true
+ - name: '🇺🇸 美国09'
+   type: ss
+   server: v2-sh-us.as9929.uk, port: 14052,
+   cipher: aes-128-gcm
+   password: "8804e338-5797-4a51-884b-b8bec1f1bedd"
+   udp: true
+ - name: '🇺🇸 美国10'
+   type: ss
+   server: v2-sh-us.as9929.uk, port: 48578,
+   cipher: aes-128-gcm
+   password: "8804e338-5797-4a51-884b-b8bec1f1bedd"
+   udp: true
+ - name: '🇩🇪 德国'
+   type: ss
+   server: bj-de.as9929.uk, port: 49301,
+   cipher: aes-128-gcm
+   password: "8804e338-5797-4a51-884b-b8bec1f1bedd"
+   udp: true
+ - name: '🇬🇧 英国'
+   type: ss
+   server: bj-de.as9929.uk, port: 28790,
+   cipher: aes-128-gcm
+   password: "8804e338-5797-4a51-884b-b8bec1f1bedd"
+   udp: true
+ - name: '🇰🇷 韩国'
+   type: ss
+   server: v2-jsbgp.as9929.uk, port: 16098,
+   cipher: aes-128-gcm
+   password: "8804e338-5797-4a51-884b-b8bec1f1bedd"
+   udp: true
+ - name: '🇳🇱 荷兰01'
+   type: ss
+   server: bj-de.as9929.uk, port: 43417,
+   cipher: chacha20-ietf-poly1305
+   password: "8804e338-5797-4a51-884b-b8bec1f1bedd"
+   udp: true
+ - name: '🇳🇱 荷兰02'
+   type: ss
+   server: bj-de.as9929.uk, port: 59018,
+   cipher: chacha20-ietf-poly1305
+   password: "8804e338-5797-4a51-884b-b8bec1f1bedd"
+   udp: true
+ - name: '🇹🇷 土耳其01'
+   type: ss
+   server: bj-de.as9929.uk, port: 31759,
+   cipher: aes-128-gcm
+   password: "8804e338-5797-4a51-884b-b8bec1f1bedd"
+   udp: true
+ - name: '🇹🇷 土耳其02'
+   type: ss
+   server: bj-de.as9929.uk, port: 35051,
+   cipher: aes-128-gcm
+   password: "8804e338-5797-4a51-884b-b8bec1f1bedd"
+   udp: true
+ - name: '🇮🇳 印度'
+   type: ss
+   server: v2-jsbgp.as9929.uk, port: 16054,
+   cipher: aes-128-gcm
+   password: "8804e338-5797-4a51-884b-b8bec1f1bedd"
+   udp: true
+ - name: '🇨🇦 加拿大'
+   type: ss
+   server: v2-jsbgp.as9929.uk, port: 55775,
+   cipher: chacha20-ietf-poly1305
+   password: "8804e338-5797-4a51-884b-b8bec1f1bedd"
+   udp: true
+ - name: '🇮🇩 印尼'
+   type: ss
+   server: v2-jsbgp.as9929.uk, port: 19941,
+   cipher: aes-128-gcm
+   password: "8804e338-5797-4a51-884b-b8bec1f1bedd"
+   udp: true
+ - name: '🇦🇷 阿根廷'
+   type: ss
+   server: v2-jsbgp.as9929.uk, port: 14015,
+   cipher: aes-128-gcm
+   password: "8804e338-5797-4a51-884b-b8bec1f1bedd"
+   udp: true
+ - name: '🇻🇳 越南'
+   type: ss
+   server: v2-jsbgp.as9929.uk, port: 41327,
+   cipher: aes-128-gcm
+   password: "8804e338-5797-4a51-884b-b8bec1f1bedd"
+   udp: true
+ - name: '🇲🇾 马来西亚'
+   type: ss
+   server: v2-jsbgp.as9929.uk, port: 25733,
+   cipher: chacha20-ietf-poly1305
+   password: "8804e338-5797-4a51-884b-b8bec1f1bedd"
+   udp: true
+ - name: '🇵🇭 菲律宾'
+   type: ss
+   server: v2-jsbgp.as9929.uk, port: 39813,
+   cipher: aes-128-gcm
+   password: "8804e338-5797-4a51-884b-b8bec1f1bedd"
+   udp: true
+ - name: '🇺🇦 乌克兰'
+   type: ss
+   server: bj-de.as9929.uk, port: 32044,
+   cipher: aes-128-gcm
+   password: "8804e338-5797-4a51-884b-b8bec1f1bedd"
+   udp: true
+ - name: '🇳🇬 尼日利亚'
+   type: ss
+   server: bj-de.as9929.uk, port: 42661,
+   cipher: aes-128-gcm
+   password: "8804e338-5797-4a51-884b-b8bec1f1bedd"
+   udp: true
+ - name: '🇦🇪 阿拉伯'
+   type: ss
+   server: v2-jsbgp.as9929.uk, port: 27955,
+   cipher: aes-128-gcm
+   password: "8804e338-5797-4a51-884b-b8bec1f1bedd"
+   udp: true
+ - name: '🇪🇸 西班牙'
+   type: ss
+   server: bj-de.as9929.uk, port: 55626,
+   cipher: aes-128-gcm
+   password: "8804e338-5797-4a51-884b-b8bec1f1bedd"
+   udp: true
+ - name: '🇵🇰 巴基斯坦'
+   type: ss
+   server: v2-jsbgp.as9929.uk, port: 18075,
+   cipher: aes-128-gcm
+   password: "8804e338-5797-4a51-884b-b8bec1f1bedd"
+   udp: true
