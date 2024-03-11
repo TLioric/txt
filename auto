@@ -1,4 +1,5 @@
- - name: '苏苏：剩余流量：9999TB'
+proxies:
+- name: '苏苏：剩余流量：9999TB'
    type: ss
    server: v2-sh-hk.as9929.uk
    port: 10061
