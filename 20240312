@@ -1,0 +1,55 @@
+proxies:
+    - { name: '剩余流量：23.78 GB', type: trojan, server: s.eeeeeef998.buzz, port: 11001, password: 39d0c861-b0f8-4d9d-ba66-100686bf5e06, udp: true, sni: data.steamdownload.top, skip-cert-verify: true }
+    - { name: '距离下次重置剩余：1 天', type: trojan, server: s.eeeeeef998.buzz, port: 11001, password: 39d0c861-b0f8-4d9d-ba66-100686bf5e06, udp: true, sni: data.steamdownload.top, skip-cert-verify: true }
+    - { name: 套餐到期：2024-03-13, type: trojan, server: s.eeeeeef998.buzz, port: 11001, password: 39d0c861-b0f8-4d9d-ba66-100686bf5e06, udp: true, sni: data.steamdownload.top, skip-cert-verify: true }
+    - { name: '香港 1', type: trojan, server: s.eeeeeef998.buzz, port: 11001, password: 39d0c861-b0f8-4d9d-ba66-100686bf5e06, udp: true, sni: data.steamdownload.top, skip-cert-verify: true }
+    - { name: '香港 2', type: trojan, server: s.eeeeeef998.buzz, port: 11002, password: 39d0c861-b0f8-4d9d-ba66-100686bf5e06, udp: true, sni: data.steamdownload.top, skip-cert-verify: true }
+    - { name: '香港 3', type: trojan, server: s.eeeeeef998.buzz, port: 11003, password: 39d0c861-b0f8-4d9d-ba66-100686bf5e06, udp: true, sni: data.steamdownload.top, skip-cert-verify: true }
+    - { name: '香港 4', type: trojan, server: s.eeeeeef998.buzz, port: 11004, password: 39d0c861-b0f8-4d9d-ba66-100686bf5e06, udp: true, sni: data.steamdownload.top, skip-cert-verify: true }
+    - { name: '香港 5', type: trojan, server: s.eeeeeef998.buzz, port: 11005, password: 39d0c861-b0f8-4d9d-ba66-100686bf5e06, udp: true, sni: data.steamdownload.top, skip-cert-verify: true }
+    - { name: '香港 6', type: trojan, server: s.eeeeeef998.buzz, port: 11006, password: 39d0c861-b0f8-4d9d-ba66-100686bf5e06, udp: true, sni: data.steamdownload.top, skip-cert-verify: true }
+    - { name: '台湾 1', type: trojan, server: s.eeeeeef998.buzz, port: 12001, password: 39d0c861-b0f8-4d9d-ba66-100686bf5e06, udp: true, sni: data.steamdownload.top, skip-cert-verify: true }
+    - { name: '台湾 2', type: trojan, server: s.eeeeeef998.buzz, port: 12002, password: 39d0c861-b0f8-4d9d-ba66-100686bf5e06, udp: true, sni: data.steamdownload.top, skip-cert-verify: true }
+    - { name: '台湾 3', type: trojan, server: s.eeeeeef998.buzz, port: 12003, password: 39d0c861-b0f8-4d9d-ba66-100686bf5e06, udp: true, sni: data.steamdownload.top, skip-cert-verify: true }
+    - { name: '日本 1', type: trojan, server: e.eeeeeef998.buzz, port: 13001, password: 39d0c861-b0f8-4d9d-ba66-100686bf5e06, udp: true, sni: data.steamdownload.top, skip-cert-verify: true }
+    - { name: '日本 2', type: trojan, server: e.eeeeeef998.buzz, port: 13002, password: 39d0c861-b0f8-4d9d-ba66-100686bf5e06, udp: true, sni: data.steamdownload.top, skip-cert-verify: true }
+    - { name: '日本 3', type: trojan, server: e.eeeeeef998.buzz, port: 13003, password: 39d0c861-b0f8-4d9d-ba66-100686bf5e06, udp: true, sni: data.steamdownload.top, skip-cert-verify: true }
+    - { name: '日本 4', type: trojan, server: e.eeeeeef998.buzz, port: 13004, password: 39d0c861-b0f8-4d9d-ba66-100686bf5e06, udp: true, sni: data.steamdownload.top, skip-cert-verify: true }
+    - { name: '日本 5', type: trojan, server: e.eeeeeef998.buzz, port: 13005, password: 39d0c861-b0f8-4d9d-ba66-100686bf5e06, udp: true, sni: data.steamdownload.top, skip-cert-verify: true }
+    - { name: '日本 6', type: trojan, server: e.eeeeeef998.buzz, port: 13002, password: 39d0c861-b0f8-4d9d-ba66-100686bf5e06, udp: true, sni: data.steamdownload.top, skip-cert-verify: true }
+    - { name: '新加坡 1', type: trojan, server: s.eeeeeef998.buzz, port: 14001, password: 39d0c861-b0f8-4d9d-ba66-100686bf5e06, udp: true, sni: data.steamdownload.top, skip-cert-verify: true }
+    - { name: '新加坡 2', type: trojan, server: s.eeeeeef998.buzz, port: 14002, password: 39d0c861-b0f8-4d9d-ba66-100686bf5e06, udp: true, sni: data.steamdownload.top, skip-cert-verify: true }
+    - { name: '新加坡 3', type: trojan, server: s.eeeeeef998.buzz, port: 14003, password: 39d0c861-b0f8-4d9d-ba66-100686bf5e06, udp: true, sni: data.steamdownload.top, skip-cert-verify: true }
+    - { name: '新加坡 4', type: trojan, server: s.eeeeeef998.buzz, port: 14004, password: 39d0c861-b0f8-4d9d-ba66-100686bf5e06, udp: true, sni: data.steamdownload.top, skip-cert-verify: true }
+    - { name: '新加坡 5', type: trojan, server: s.eeeeeef998.buzz, port: 14005, password: 39d0c861-b0f8-4d9d-ba66-100686bf5e06, udp: true, sni: data.steamdownload.top, skip-cert-verify: true }
+    - { name: '新加坡 6', type: trojan, server: s.eeeeeef998.buzz, port: 14006, password: 39d0c861-b0f8-4d9d-ba66-100686bf5e06, udp: true, sni: data.steamdownload.top, skip-cert-verify: true }
+    - { name: '美国 1', type: trojan, server: e.eeeeeef998.buzz, port: 15001, password: 39d0c861-b0f8-4d9d-ba66-100686bf5e06, udp: true, sni: data.steamdownload.top, skip-cert-verify: true }
+    - { name: '美国 2', type: trojan, server: e.eeeeeef998.buzz, port: 15002, password: 39d0c861-b0f8-4d9d-ba66-100686bf5e06, udp: true, sni: data.steamdownload.top, skip-cert-verify: true }
+    - { name: '美国 3', type: trojan, server: e.eeeeeef998.buzz, port: 15003, password: 39d0c861-b0f8-4d9d-ba66-100686bf5e06, udp: true, sni: data.steamdownload.top, skip-cert-verify: true }
+    - { name: '美国 4', type: trojan, server: e.eeeeeef998.buzz, port: 15004, password: 39d0c861-b0f8-4d9d-ba66-100686bf5e06, udp: true, sni: data.steamdownload.top, skip-cert-verify: true }
+    - { name: '美国 5', type: trojan, server: e.eeeeeef998.buzz, port: 15005, password: 39d0c861-b0f8-4d9d-ba66-100686bf5e06, udp: true, sni: data.steamdownload.top, skip-cert-verify: true }
+    - { name: '美国 6', type: trojan, server: e.eeeeeef998.buzz, port: 15006, password: 39d0c861-b0f8-4d9d-ba66-100686bf5e06, udp: true, sni: data.steamdownload.top, skip-cert-verify: true }
+    - { name: 韩国, type: trojan, server: e.eeeeeef998.buzz, port: 16101, password: 39d0c861-b0f8-4d9d-ba66-100686bf5e06, udp: true, sni: data.steamdownload.top, skip-cert-verify: true }
+    - { name: 印度, type: trojan, server: s.eeeeeef998.buzz, port: 16102, password: 39d0c861-b0f8-4d9d-ba66-100686bf5e06, udp: true, sni: data.steamdownload.top, skip-cert-verify: true }
+    - { name: 澳大利亚, type: trojan, server: s.eeeeeef998.buzz, port: 16103, password: 39d0c861-b0f8-4d9d-ba66-100686bf5e06, udp: true, sni: data.steamdownload.top, skip-cert-verify: true }
+    - { name: 土耳其, type: trojan, server: s.eeeeeef998.buzz, port: 16104, password: 39d0c861-b0f8-4d9d-ba66-100686bf5e06, udp: true, sni: data.steamdownload.top, skip-cert-verify: true }
+    - { name: 以色列, type: trojan, server: s.eeeeeef998.buzz, port: 16105, password: 39d0c861-b0f8-4d9d-ba66-100686bf5e06, udp: true, sni: data.steamdownload.top, skip-cert-verify: true }
+    - { name: 阿联酋, type: trojan, server: s.eeeeeef998.buzz, port: 16106, password: 39d0c861-b0f8-4d9d-ba66-100686bf5e06, udp: true, sni: data.steamdownload.top, skip-cert-verify: true }
+    - { name: 沙特阿拉伯, type: trojan, server: s.eeeeeef998.buzz, port: 16107, password: 39d0c861-b0f8-4d9d-ba66-100686bf5e06, udp: true, sni: data.steamdownload.top, skip-cert-verify: true }
+    - { name: 马来西亚, type: trojan, server: s.eeeeeef998.buzz, port: 16109, password: 39d0c861-b0f8-4d9d-ba66-100686bf5e06, udp: true, sni: data.steamdownload.top, skip-cert-verify: true }
+    - { name: 英国, type: trojan, server: s.eeeeeef998.buzz, port: 16201, password: 39d0c861-b0f8-4d9d-ba66-100686bf5e06, udp: true, sni: data.steamdownload.top, skip-cert-verify: true }
+    - { name: 法国, type: trojan, server: s.eeeeeef998.buzz, port: 16202, password: 39d0c861-b0f8-4d9d-ba66-100686bf5e06, udp: true, sni: data.steamdownload.top, skip-cert-verify: true }
+    - { name: 德国, type: trojan, server: s.eeeeeef998.buzz, port: 16203, password: 39d0c861-b0f8-4d9d-ba66-100686bf5e06, udp: true, sni: data.steamdownload.top, skip-cert-verify: true }
+    - { name: 俄罗斯, type: trojan, server: s.eeeeeef998.buzz, port: 16204, password: 39d0c861-b0f8-4d9d-ba66-100686bf5e06, udp: true, sni: data.steamdownload.top, skip-cert-verify: true }
+    - { name: 荷兰, type: trojan, server: s.eeeeeef998.buzz, port: 16207, password: 39d0c861-b0f8-4d9d-ba66-100686bf5e06, udp: true, sni: data.steamdownload.top, skip-cert-verify: true }
+    - { name: 意大利, type: trojan, server: s.eeeeeef998.buzz, port: 16209, password: 39d0c861-b0f8-4d9d-ba66-100686bf5e06, udp: true, sni: data.steamdownload.top, skip-cert-verify: true }
+    - { name: 瑞典, type: trojan, server: s.eeeeeef998.buzz, port: 16212, password: 39d0c861-b0f8-4d9d-ba66-100686bf5e06, udp: true, sni: data.steamdownload.top, skip-cert-verify: true }
+    - { name: 瑞士, type: trojan, server: s.eeeeeef998.buzz, port: 16213, password: 39d0c861-b0f8-4d9d-ba66-100686bf5e06, udp: true, sni: data.steamdownload.top, skip-cert-verify: true }
+    - { name: 西班牙, type: trojan, server: s.eeeeeef998.buzz, port: 16216, password: 39d0c861-b0f8-4d9d-ba66-100686bf5e06, udp: true, sni: data.steamdownload.top, skip-cert-verify: true }
+    - { name: 加拿大, type: trojan, server: e.eeeeeef998.buzz, port: 16301, password: 39d0c861-b0f8-4d9d-ba66-100686bf5e06, udp: true, sni: data.steamdownload.top, skip-cert-verify: true }
+    - { name: 墨西哥, type: trojan, server: e.eeeeeef998.buzz, port: 16302, password: 39d0c861-b0f8-4d9d-ba66-100686bf5e06, udp: true, sni: data.steamdownload.top, skip-cert-verify: true }
+    - { name: 巴西, type: trojan, server: e.eeeeeef998.buzz, port: 16303, password: 39d0c861-b0f8-4d9d-ba66-100686bf5e06, udp: true, sni: data.steamdownload.top, skip-cert-verify: true }
+    - { name: 智利, type: trojan, server: e.eeeeeef998.buzz, port: 16304, password: 39d0c861-b0f8-4d9d-ba66-100686bf5e06, udp: true, sni: data.steamdownload.top, skip-cert-verify: true }
+    - { name: 阿根廷, type: trojan, server: e.eeeeeef998.buzz, port: 16305, password: 39d0c861-b0f8-4d9d-ba66-100686bf5e06, udp: true, sni: data.steamdownload.top, skip-cert-verify: true }
+    - { name: 南非, type: trojan, server: s.eeeeeef998.buzz, port: 16401, password: 39d0c861-b0f8-4d9d-ba66-100686bf5e06, udp: true, sni: data.steamdownload.top, skip-cert-verify: true }
+    - { name: 尼日利亚, type: trojan, server: s.eeeeeef998.buzz, port: 16402, password: 39d0c861-b0f8-4d9d-ba66-100686bf5e06, udp: true, sni: data.steamdownload.top, skip-cert-verify: true }
