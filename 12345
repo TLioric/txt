@@ -1,0 +1,92 @@
+port: 7890
+socks-port: 7891
+allow-lan: true
+mode: Rule
+log-level: info
+external-controller: '127.0.0.1:9090'
+dns:
+    enable: true
+    ipv6: false
+    listen: '0.0.0.0:53'
+    enhanced-mode: redir-host
+    nameserver: [117.50.10.10, 119.29.29.29, 114.114.114.114, 223.5.5.5, 223.6.6.6]
+    Auto: ['tls://1.1.1.1:853', 'tls://1.0.0.1:853', 'tls://dns.google:853']
+proxies:
+    - { name: HK1, type: vless, server: hk1.speed-mitce.top, port: 10031, uuid: B8CD52A9-56EA-439D-95E8-9374AA02DE1E, udp: true, tls: true, flow: xtls-rprx-vision, client-fingerprint: chrome, servername: s0.awsstatic.com, reality-opts: { public-key: dR1QmDjsiujobG0AxdPdsom9gNkgf8qnJglB49-XclM, short-id: 01fc5e98a68e5e7b } }
+    - { name: HK2, type: vless, server: hk2.speed-mitce.top, port: 10032, uuid: B8CD52A9-56EA-439D-95E8-9374AA02DE1E, udp: true, tls: true, flow: xtls-rprx-vision, client-fingerprint: chrome, servername: s0.awsstatic.com, reality-opts: { public-key: dR1QmDjsiujobG0AxdPdsom9gNkgf8qnJglB49-XclM, short-id: 01fc5e98a68e5e7b } }
+    - { name: HK3, type: vless, server: hk3.speed-mitce.top, port: 10033, uuid: B8CD52A9-56EA-439D-95E8-9374AA02DE1E, udp: true, tls: true, flow: xtls-rprx-vision, client-fingerprint: chrome, servername: s0.awsstatic.com, reality-opts: { public-key: dR1QmDjsiujobG0AxdPdsom9gNkgf8qnJglB49-XclM, short-id: 01fc5e98a68e5e7b } }
+    - { name: HK4, type: vless, server: hk4.speed-mitce.top, port: 10034, uuid: B8CD52A9-56EA-439D-95E8-9374AA02DE1E, udp: true, tls: true, flow: xtls-rprx-vision, client-fingerprint: chrome, servername: s0.awsstatic.com, reality-opts: { public-key: dR1QmDjsiujobG0AxdPdsom9gNkgf8qnJglB49-XclM, short-id: 01fc5e98a68e5e7b } }
+    - { name: HK5, type: vless, server: hk5.speed-mitce.top, port: 10035, uuid: B8CD52A9-56EA-439D-95E8-9374AA02DE1E, udp: true, tls: true, flow: xtls-rprx-vision, client-fingerprint: chrome, servername: s0.awsstatic.com, reality-opts: { public-key: dR1QmDjsiujobG0AxdPdsom9gNkgf8qnJglB49-XclM, short-id: 01fc5e98a68e5e7b } }
+    - { name: JP1, type: vless, server: jp1.speed-mitce.top, port: 10006, uuid: B8CD52A9-56EA-439D-95E8-9374AA02DE1E, udp: true, tls: true, flow: xtls-rprx-vision, client-fingerprint: chrome, servername: s0.awsstatic.com, reality-opts: { public-key: dR1QmDjsiujobG0AxdPdsom9gNkgf8qnJglB49-XclM, short-id: 01fc5e98a68e5e7b } }
+    - { name: JP2, type: vless, server: jp2.speed-mitce.top, port: 10007, uuid: B8CD52A9-56EA-439D-95E8-9374AA02DE1E, udp: true, tls: true, flow: xtls-rprx-vision, client-fingerprint: chrome, servername: s0.awsstatic.com, reality-opts: { public-key: dR1QmDjsiujobG0AxdPdsom9gNkgf8qnJglB49-XclM, short-id: 01fc5e98a68e5e7b } }
+    - { name: JP3, type: vless, server: jp3.speed-mitce.top, port: 10008, uuid: B8CD52A9-56EA-439D-95E8-9374AA02DE1E, udp: true, tls: true, flow: xtls-rprx-vision, client-fingerprint: chrome, servername: s0.awsstatic.com, reality-opts: { public-key: dR1QmDjsiujobG0AxdPdsom9gNkgf8qnJglB49-XclM, short-id: 01fc5e98a68e5e7b } }
+    - { name: JP4, type: vless, server: jp4.speed-mitce.top, port: 10009, uuid: B8CD52A9-56EA-439D-95E8-9374AA02DE1E, udp: true, tls: true, flow: xtls-rprx-vision, client-fingerprint: chrome, servername: s0.awsstatic.com, reality-opts: { public-key: dR1QmDjsiujobG0AxdPdsom9gNkgf8qnJglB49-XclM, short-id: 01fc5e98a68e5e7b } }
+    - { name: JP5, type: vless, server: jp5.speed-mitce.top, port: 10010, uuid: B8CD52A9-56EA-439D-95E8-9374AA02DE1E, udp: true, tls: true, flow: xtls-rprx-vision, client-fingerprint: chrome, servername: s0.awsstatic.com, reality-opts: { public-key: dR1QmDjsiujobG0AxdPdsom9gNkgf8qnJglB49-XclM, short-id: 01fc5e98a68e5e7b } }
+    - { name: JP6, type: vless, server: jp6.speed-mitce.top, port: 10041, uuid: B8CD52A9-56EA-439D-95E8-9374AA02DE1E, udp: true, tls: true, flow: xtls-rprx-vision, client-fingerprint: chrome, servername: s0.awsstatic.com, reality-opts: { public-key: dR1QmDjsiujobG0AxdPdsom9gNkgf8qnJglB49-XclM, short-id: 01fc5e98a68e5e7b } }
+    - { name: KR1, type: vless, server: kr1.speed-mitce.top, port: 10016, uuid: B8CD52A9-56EA-439D-95E8-9374AA02DE1E, udp: true, tls: true, flow: xtls-rprx-vision, client-fingerprint: chrome, servername: s0.awsstatic.com, reality-opts: { public-key: dR1QmDjsiujobG0AxdPdsom9gNkgf8qnJglB49-XclM, short-id: 01fc5e98a68e5e7b } }
+    - { name: KR2, type: vless, server: kr2.speed-mitce.top, port: 10017, uuid: B8CD52A9-56EA-439D-95E8-9374AA02DE1E, udp: true, tls: true, flow: xtls-rprx-vision, client-fingerprint: chrome, servername: s0.awsstatic.com, reality-opts: { public-key: dR1QmDjsiujobG0AxdPdsom9gNkgf8qnJglB49-XclM, short-id: 01fc5e98a68e5e7b } }
+    - { name: KR3, type: vless, server: kr3.speed-mitce.top, port: 10018, uuid: B8CD52A9-56EA-439D-95E8-9374AA02DE1E, udp: true, tls: true, flow: xtls-rprx-vision, client-fingerprint: chrome, servername: s0.awsstatic.com, reality-opts: { public-key: dR1QmDjsiujobG0AxdPdsom9gNkgf8qnJglB49-XclM, short-id: 01fc5e98a68e5e7b } }
+    - { name: KR4, type: vless, server: kr4.speed-mitce.top, port: 10019, uuid: B8CD52A9-56EA-439D-95E8-9374AA02DE1E, udp: true, tls: true, flow: xtls-rprx-vision, client-fingerprint: chrome, servername: s0.awsstatic.com, reality-opts: { public-key: dR1QmDjsiujobG0AxdPdsom9gNkgf8qnJglB49-XclM, short-id: 01fc5e98a68e5e7b } }
+    - { name: KR5, type: vless, server: kr5.speed-mitce.top, port: 10020, uuid: B8CD52A9-56EA-439D-95E8-9374AA02DE1E, udp: true, tls: true, flow: xtls-rprx-vision, client-fingerprint: chrome, servername: s0.awsstatic.com, reality-opts: { public-key: dR1QmDjsiujobG0AxdPdsom9gNkgf8qnJglB49-XclM, short-id: 01fc5e98a68e5e7b } }
+    - { name: SG1, type: vless, server: sg1.speed-mitce.top, port: 10011, uuid: B8CD52A9-56EA-439D-95E8-9374AA02DE1E, udp: true, tls: true, flow: xtls-rprx-vision, client-fingerprint: chrome, servername: s0.awsstatic.com, reality-opts: { public-key: dR1QmDjsiujobG0AxdPdsom9gNkgf8qnJglB49-XclM, short-id: 01fc5e98a68e5e7b } }
+    - { name: SG2, type: vless, server: sg2.speed-mitce.top, port: 10012, uuid: B8CD52A9-56EA-439D-95E8-9374AA02DE1E, udp: true, tls: true, flow: xtls-rprx-vision, client-fingerprint: chrome, servername: s0.awsstatic.com, reality-opts: { public-key: dR1QmDjsiujobG0AxdPdsom9gNkgf8qnJglB49-XclM, short-id: 01fc5e98a68e5e7b } }
+    - { name: SG3, type: vless, server: sg3.speed-mitce.top, port: 10013, uuid: B8CD52A9-56EA-439D-95E8-9374AA02DE1E, udp: true, tls: true, flow: xtls-rprx-vision, client-fingerprint: chrome, servername: s0.awsstatic.com, reality-opts: { public-key: dR1QmDjsiujobG0AxdPdsom9gNkgf8qnJglB49-XclM, short-id: 01fc5e98a68e5e7b } }
+    - { name: SG4, type: vless, server: sg4.speed-mitce.top, port: 10014, uuid: B8CD52A9-56EA-439D-95E8-9374AA02DE1E, udp: true, tls: true, flow: xtls-rprx-vision, client-fingerprint: chrome, servername: s0.awsstatic.com, reality-opts: { public-key: dR1QmDjsiujobG0AxdPdsom9gNkgf8qnJglB49-XclM, short-id: 01fc5e98a68e5e7b } }
+    - { name: SG5, type: vless, server: sg5.speed-mitce.top, port: 10015, uuid: B8CD52A9-56EA-439D-95E8-9374AA02DE1E, udp: true, tls: true, flow: xtls-rprx-vision, client-fingerprint: chrome, servername: s0.awsstatic.com, reality-opts: { public-key: dR1QmDjsiujobG0AxdPdsom9gNkgf8qnJglB49-XclM, short-id: 01fc5e98a68e5e7b } }
+    - { name: TW1-M, type: ss, server: taiwan.speed-mitce.top, port: 10026, cipher: aes-128-gcm, password: B8CD52A9-56EA-439D-95E8-9374AA02DE1E, udp: true }
+    - { name: TW2-M, type: ss, server: taiwan.speed-mitce.top, port: 10027, cipher: aes-128-gcm, password: B8CD52A9-56EA-439D-95E8-9374AA02DE1E, udp: true }
+    - { name: TW3-M, type: ss, server: taiwan.speed-mitce.top, port: 10028, cipher: aes-128-gcm, password: B8CD52A9-56EA-439D-95E8-9374AA02DE1E, udp: true }
+    - { name: TW4-M, type: ss, server: taiwan.speed-mitce.top, port: 10029, cipher: aes-128-gcm, password: B8CD52A9-56EA-439D-95E8-9374AA02DE1E, udp: true }
+    - { name: TW5-M, type: ss, server: taiwan.speed-mitce.top, port: 10030, cipher: aes-128-gcm, password: B8CD52A9-56EA-439D-95E8-9374AA02DE1E, udp: true }
+    - { name: US1, type: vless, server: us1.speed-mitce.top, port: 10001, uuid: B8CD52A9-56EA-439D-95E8-9374AA02DE1E, udp: true, tls: true, flow: xtls-rprx-vision, client-fingerprint: chrome, servername: s0.awsstatic.com, reality-opts: { public-key: dR1QmDjsiujobG0AxdPdsom9gNkgf8qnJglB49-XclM, short-id: 01fc5e98a68e5e7b } }
+    - { name: US1-M, type: ss, server: america.speed-mitce.top, port: 10036, cipher: aes-256-gcm, password: B8CD52A9-56EA-439D-95E8-9374AA02DE1E, udp: true }
+    - { name: US2, type: vless, server: us2.speed-mitce.top, port: 10002, uuid: B8CD52A9-56EA-439D-95E8-9374AA02DE1E, udp: true, tls: true, flow: xtls-rprx-vision, client-fingerprint: chrome, servername: s0.awsstatic.com, reality-opts: { public-key: dR1QmDjsiujobG0AxdPdsom9gNkgf8qnJglB49-XclM, short-id: 01fc5e98a68e5e7b } }
+    - { name: US2-M, type: ss, server: america.speed-mitce.top, port: 10037, cipher: aes-256-gcm, password: B8CD52A9-56EA-439D-95E8-9374AA02DE1E, udp: true }
+    - { name: US3, type: vless, server: us3.speed-mitce.top, port: 10003, uuid: B8CD52A9-56EA-439D-95E8-9374AA02DE1E, udp: true, tls: true, flow: xtls-rprx-vision, client-fingerprint: chrome, servername: s0.awsstatic.com, reality-opts: { public-key: dR1QmDjsiujobG0AxdPdsom9gNkgf8qnJglB49-XclM, short-id: 01fc5e98a68e5e7b } }
+    - { name: US3-M, type: ss, server: america.speed-mitce.top, port: 10038, cipher: aes-256-gcm, password: B8CD52A9-56EA-439D-95E8-9374AA02DE1E, udp: true }
+    - { name: US4, type: vless, server: us4.speed-mitce.top, port: 10004, uuid: B8CD52A9-56EA-439D-95E8-9374AA02DE1E, udp: true, tls: true, flow: xtls-rprx-vision, client-fingerprint: chrome, servername: s0.awsstatic.com, reality-opts: { public-key: dR1QmDjsiujobG0AxdPdsom9gNkgf8qnJglB49-XclM, short-id: 01fc5e98a68e5e7b } }
+    - { name: US4-M, type: ss, server: america.speed-mitce.top, port: 10039, cipher: aes-256-gcm, password: B8CD52A9-56EA-439D-95E8-9374AA02DE1E, udp: true }
+    - { name: US5, type: vless, server: us5.speed-mitce.top, port: 10005, uuid: B8CD52A9-56EA-439D-95E8-9374AA02DE1E, udp: true, tls: true, flow: xtls-rprx-vision, client-fingerprint: chrome, servername: s0.awsstatic.com, reality-opts: { public-key: dR1QmDjsiujobG0AxdPdsom9gNkgf8qnJglB49-XclM, short-id: 01fc5e98a68e5e7b } }
+    - { name: US5-M, type: ss, server: america.speed-mitce.top, port: 10040, cipher: aes-256-gcm, password: B8CD52A9-56EA-439D-95E8-9374AA02DE1E, udp: true }
+proxy-groups:
+    - { name: 'Main Node', type: select, proxies: ['Auto Choose', HK1, HK2, HK3, HK4, HK5, JP1, JP2, JP3, JP4, JP5, JP6, KR1, KR2, KR3, KR4, KR5, SG1, SG2, SG3, SG4, SG5, TW1-M, TW2-M, TW3-M, TW4-M, TW5-M, US1, US1-M, US2, US2-M, US3, US3-M, US4, US4-M, US5, US5-M] }
+    - { name: 'Apple Services', type: select, proxies: ['Main Node', 'Auto Choose', HK1, HK2, HK3, HK4, HK5, JP1, JP2, JP3, JP4, JP5, JP6, KR1, KR2, KR3, KR4, KR5, SG1, SG2, SG3, SG4, SG5, TW1-M, TW2-M, TW3-M, TW4-M, TW5-M, US1, US1-M, US2, US2-M, US3, US3-M, US4, US4-M, US5, US5-M] }
+    - { name: 'Blocked Domains', type: select, proxies: ['Main Node', 'Auto Choose', HK1, HK2, HK3, HK4, HK5, JP1, JP2, JP3, JP4, JP5, JP6, KR1, KR2, KR3, KR4, KR5, SG1, SG2, SG3, SG4, SG5, TW1-M, TW2-M, TW3-M, TW4-M, TW5-M, US1, US1-M, US2, US2-M, US3, US3-M, US4, US4-M, US5, US5-M] }
+    - { name: 'CHN Mainland', type: select, proxies: [Directly, 'Main Node', 'Auto Choose', HK1, HK2, HK3, HK4, HK5, JP1, JP2, JP3, JP4, JP5, JP6, KR1, KR2, KR3, KR4, KR5, SG1, SG2, SG3, SG4, SG5, TW1-M, TW2-M, TW3-M, TW4-M, TW5-M, US1, US1-M, US2, US2-M, US3, US3-M, US4, US4-M, US5, US5-M] }
+    - { name: 'Auto Choose', type: url-test, proxies: [HK1, HK2, HK3, HK4, HK5, JP1, JP2, JP3, JP4, JP5, JP6, KR1, KR2, KR3, KR4, KR5, SG1, SG2, SG3, SG4, SG5, TW1-M, TW2-M, TW3-M, TW4-M, TW5-M, US1, US1-M, US2, US2-M, US3, US3-M, US4, US4-M, US5, US5-M], url: 'http://cp.cloudflare.com', interval: 180 }
+    - { name: Directly, type: select, proxies: [DIRECT, HK1, HK2, HK3, HK4, HK5, JP1, JP2, JP3, JP4, JP5, JP6, KR1, KR2, KR3, KR4, KR5, SG1, SG2, SG3, SG4, SG5, TW1-M, TW2-M, TW3-M, TW4-M, TW5-M, US1, US1-M, US2, US2-M, US3, US3-M, US4, US4-M, US5, US5-M] }
+    - { name: 'BAN ADS', type: select, proxies: [REJECT, HK1, HK2, HK3, HK4, HK5, JP1, JP2, JP3, JP4, JP5, JP6, KR1, KR2, KR3, KR4, KR5, SG1, SG2, SG3, SG4, SG5, TW1-M, TW2-M, TW3-M, TW4-M, TW5-M, US1, US1-M, US2, US2-M, US3, US3-M, US4, US4-M, US5, US5-M] }
+rule-providers:
+    reject: { type: http, behavior: domain, url: 'https://raw.gitmirror.com/Loyalsoldier/clash-rules/release/reject.txt', path: ./ruleset/reject.yaml, interval: 86400 }
+    icloud: { type: http, behavior: domain, url: 'https://raw.gitmirror.com/Loyalsoldier/clash-rules/release/icloud.txt', path: ./ruleset/icloud.yaml, interval: 86400 }
+    apple: { type: http, behavior: domain, url: 'https://raw.gitmirror.com/Loyalsoldier/clash-rules/release/apple.txt', path: ./ruleset/apple.yaml, interval: 86400 }
+    proxy: { type: http, behavior: domain, url: 'https://raw.gitmirror.com/Loyalsoldier/clash-rules/release/proxy.txt', path: ./ruleset/proxy.yaml, interval: 86400 }
+    direct: { type: http, behavior: domain, url: 'https://raw.gitmirror.com/Loyalsoldier/clash-rules/release/direct.txt', path: ./ruleset/direct.yaml, interval: 86400 }
+    cncidr: { type: http, behavior: ipcidr, url: 'https://raw.gitmirror.com/Loyalsoldier/clash-rules/release/cncidr.txt', path: ./ruleset/cncidr.yaml, interval: 86400 }
+    lancidr: { type: http, behavior: ipcidr, url: 'https://raw.gitmirror.com/Loyalsoldier/clash-rules/release/lancidr.txt', path: ./ruleset/lancidr.yaml, interval: 86400 }
+rules:
+    - 'PROCESS-NAME,v2ray,DIRECT'
+    - 'PROCESS-NAME,Surge%203,DIRECT'
+    - 'PROCESS-NAME,ss-local,DIRECT'
+    - 'PROCESS-NAME,privoxy,DIRECT'
+    - 'PROCESS-NAME,trojan,DIRECT'
+    - 'PROCESS-NAME,trojan-go,DIRECT'
+    - 'PROCESS-NAME,naive,DIRECT'
+    - 'PROCESS-NAME,Thunder,DIRECT'
+    - 'PROCESS-NAME,DownloadService,DIRECT'
+    - 'PROCESS-NAME,qBittorrent,DIRECT'
+    - 'PROCESS-NAME,Transmission,DIRECT'
+    - 'PROCESS-NAME,fdm,DIRECT'
+    - 'PROCESS-NAME,aria2c,DIRECT'
+    - 'PROCESS-NAME,Folx,DIRECT'
+    - 'PROCESS-NAME,NetTransport,DIRECT'
+    - 'PROCESS-NAME,uTorrent,DIRECT'
+    - 'PROCESS-NAME,WebTorrent,DIRECT'
+    - 'RULE-SET,icloud,Apple Services'
+    - 'RULE-SET,apple,Apple Services'
+    - 'RULE-SET,proxy,Blocked Domains'
+    - 'RULE-SET,cncidr,CHN Mainland'
+    - 'RULE-SET,reject,BAN ADS'
+    - 'RULE-SET,direct,DIRECT'
+    - 'RULE-SET,lancidr,DIRECT,no-resolve'
+    - 'MATCH,Main Node'
